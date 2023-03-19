@@ -1,3 +1,42 @@
 .banner {
   height: 100vh;
+  padding-top: 96px;
+}
+
+.banner-content{
+  height: 100%;
+  display: flex;
+}
+
+.banner-left {
+  width: 50%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  padding-left: 200px;
+
+  h1 {
+    font-size: 80px;
+    color: $green;
+  }
+}
+
+.banner-btns a {
+  font-size: 40px;
+  text-decoration: none;
+  color: gray;
+}
+
+.banner-right {
+  width: 50%;
+  padding-right: 150px;
+
+  img {
+    width: 380px;
+    height: 380px;
+    border-radius: 300px;
+    object-fit: cover;
+    display: flex;
+    align-content: center;
+  }
 }
