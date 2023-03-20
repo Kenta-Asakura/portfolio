@@ -19,30 +19,20 @@
   text-decoration: none;
   color: white;
   font-size: 24px;
+  font-family: 'Chakra Petch', 'sans-serif';
   position: relative;
-
-  a::after {
-    content: "";
-    display: block;
-    height: 3px;
-    left: 50%;
-    position: absolute;
-    width: 0px;
-    background: rgba(113, 229, 182, 0.99);
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  }
 }
 
-// .nav-link a::after {
-//   content: "";
-//   display: block;
-//   height: 3px;
-//   left: 50%;
-//   position: absolute;
-//   width: 0px;
-//   background: rgba(113, 229, 182, 0.99);
-//   transition: width 0.3s ease 0s, left 0.3s ease 0s;
-// }
+.nav-link a::after {
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  width: 0px;
+  background: rgba(113, 229, 182, 0.99);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
 
 .nav-link a:hover::after {
   width: 85%;
