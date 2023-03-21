@@ -1,16 +1,6 @@
 .projects {
   height: 100%;
   padding: 0 10em 5em 10em;
-
-  h1 {
-    font-size: 52px;
-    // padding-bottom: 48px;
-    border-bottom: 3px solid ;
-    // box-shadow: #71e5b6bf 0px 2px 30px 0px, rgba(255, 255, 255, 0.44) 0px 2px 15px 0px;
-    height: 63px;
-    width: 25%;
-    padding-bottom: 2em;
-  }
 }
 
 .projects-content {
@@ -18,19 +8,24 @@
   flex-direction: column;
 }
 
-.project-1 {
-  display: flex;
-  padding-bottom: 11em;
-
-  img {
-    height: 25rem;
-    width: 35rem;
-    padding-right: 32px;
-  }
+.project-left {
+  padding-right: 32px;
 }
 
-.project-1-description {
+.project-right {
   padding-left: 32px;
+}
+
+.project {
+  display: flex;
+  align-content: space-between;
+  padding-bottom: 11em;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0 16px 0;
 
   h2 {
     font-size: 40px;
@@ -41,10 +36,41 @@
   }
 }
 
-.project-tech-stack {
-  img {
+.project-img {
+  height: 25rem;
+  width: 35rem;
+}
 
+.project-tech-stack {
+  display: flex;
+  padding-bottom: 32px;
+
+  img {
+    zoom: 50%;
+    margin-right: 6%;
   }
+}
+
+.tech {
+  position: relative;
+  padding-right: 24px;
+
+  p {
+    visibility: hidden;
+    width: 80px;
+    background-color: #454545;
+    color: #fff;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 6px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+.tech:hover p {
+  visibility: visible;
 }
 
 .project-btns a {
@@ -54,13 +80,12 @@
 }
 
 .view-project-btn {
-  margin-right: 16px;
-  padding: 8px 113px;
+  padding: 8px 115px;
   border-radius: 10px;
   transition: 0.3s ease-in-out;
   background-color: #7a65ffe0;
   box-shadow: 0 0 7px #5843dc,
-  0 0 14px #5843dc,
+  0 0 14px #5843dc;
 }
 
 .view-project-btn:hover {
@@ -68,28 +93,14 @@
 }
 
 .source-code-btn {
-  padding: 8px 56px;
-  background-color: #55f2b3;
-  border-radius: 10px;
+  padding: 8px 39px;
+  background-color: #43dea0;
+  border-radius: 8px;
   transition: 0.3s ease-in-out;
-  box-shadow: 0 0 7px #33f5a7,
-  0 0 14px #33f5a7,
+  box-shadow: 0 0 7px #43dea0,
+  0 0 14px #43dea0;
 }
 
 .source-code-btn:hover {
-  background-color: #33f5a7bf;
-}
-
-.project-2 {
-  display: flex;
-
-  img {
-    height: 25rem;
-    width: 35rem;
-    padding-left: 32px;
-  }
-}
-
-.project-2-description {
-  padding-right: 32px;
+  background-color: #20eb9abf;
 }

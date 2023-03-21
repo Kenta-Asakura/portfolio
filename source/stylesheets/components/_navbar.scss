@@ -1,17 +1,17 @@
-.navbar-lewagon {
+.nav {
   background: $gray;
   height: 72px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  transition: 0.3s;
+  width: 100%;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.nav-up {
+  top: -70px;
 }
 
 .nav-link a {

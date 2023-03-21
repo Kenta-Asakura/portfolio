@@ -1,6 +1,6 @@
 .banner {
   height: 100vh;
-  padding-top: 140px;
+  padding-top: 13em;
 }
 
 .banner-content{
@@ -16,9 +16,18 @@
   padding-left: 200px;
   overflow: hidden;
 
+  p {
+    font-size: 32px;
+  }
+
   h3 {
     font-size: 80px;
     color: $green;
+  }
+
+  span {
+    font-size: 24px;
+    color: #eae3e3;
   }
 }
 

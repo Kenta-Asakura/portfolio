@@ -1,0 +1,25 @@
+.header-left {
+  h1 {
+    border-end-end-radius: 22px;
+    font-size: 52px;
+    margin-bottom: 4rem;
+    border-bottom: 3px solid;
+    height: 4rem;
+    width: 25%;
+  }
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+
+  h1 {
+    font-size: 52px;
+    border-bottom: 3px solid ;
+    border-bottom-left-radius: 22px;
+    height: 65px;
+    width: 25%;
+    margin-bottom: 3rem;
+    padding-left: 44px;
+  }
+}

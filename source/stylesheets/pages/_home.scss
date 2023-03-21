@@ -1,1 +1,21 @@
 // Specific CSS for your home-page
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+// Track
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px gray;
+  border-radius: 10px;
+}
+
+// Handle
+body::-webkit-scrollbar-thumb {
+  background: #43dea0;
+  border-radius: 10px;
+}
+
+// Handle on hover
+body::-webkit-scrollbar-thumb:hover {
+  background: #11bd78c7;
+}
