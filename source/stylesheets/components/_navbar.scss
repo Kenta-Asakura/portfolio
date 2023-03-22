@@ -1,18 +1,28 @@
-.nav {
+body {
+  --nav-height: 72px;
+
+  // padding-top: var(--nav-height);
+}
+
+.navbar {
   background: $gray;
-  height: 72px;
+  height: var(--nav-height);
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  top: 0;
-  transition: 0.3s;
+  transition: transform 0.2s;
   width: 100%;
 }
 
-.nav-up {
-  top: -70px;
+.navbar-hidden {
+  // height: translateY(calc(-1 * var(--nav-height)));
+  height: 50px;
+  box-shadow: none;
 }
+
 
 .nav-link a {
   padding: 16px;
