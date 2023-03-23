@@ -12,7 +12,7 @@
 .project-left {
   padding-right: 32px;
   transform: translateX(-73em);
-  transition: transform 0.7s ease;
+  transition: transform 0.9s ease;
 }
 
 .project-left.show {
@@ -22,7 +22,7 @@
 .project-right {
   padding-left: 32px;
   transform: translateX(47em);
-  transition: transform 0.7s ease;
+  transition: transform 0.9s ease;
 }
 
 .project-right.show {
