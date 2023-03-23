@@ -18,8 +18,8 @@ body {
 }
 
 .navbar-hidden {
-  // height: translateY(calc(-1 * var(--nav-height)));
-  height: 50px;
+  height: translateY(calc(-1 * var(--nav-height)));
+  // height: 50px;
   box-shadow: none;
 }
 

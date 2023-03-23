@@ -31,12 +31,16 @@
   }
 }
 
-.banner-btns a {
-  font-size: 40px;
-  text-decoration: none;
-  color: gray;
-  padding-right: 16px;
-  transition: all .3s ease-in-out;
+.banner-btns {
+  padding-top: 16px;
+  
+  a {
+    font-size: 40px;
+    text-decoration: none;
+    color: gray;
+    padding-right: 16px;
+    transition: all .3s ease-in-out;
+  }
 }
 
 .banner-btns a:hover {

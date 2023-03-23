@@ -1,6 +1,7 @@
 .projects {
   height: 100%;
   padding: 0 10em 5em 10em;
+  overflow-x: hidden;
 }
 
 .projects-content {
@@ -10,11 +11,24 @@
 
 .project-left {
   padding-right: 32px;
+  transform: translateX(-73em);
+  transition: transform 0.7s ease;
+}
+
+.project-left.show {
+  transform: translateX(0em);
 }
 
 .project-right {
   padding-left: 32px;
+  transform: translateX(47em);
+  transition: transform 0.7s ease;
 }
+
+.project-right.show {
+  transform: translateX(0em);
+}
+
 
 .project {
   display: flex;
@@ -25,7 +39,7 @@
 .project-description {
   display: flex;
   flex-direction: column;
-  padding: 32px 0 16px 0;
+  padding: 16px 0 16px 0;
 
   h2 {
     font-size: 40px;
@@ -37,7 +51,9 @@
 }
 
 .project-img {
-  height: 25rem;
+  position: static;
+  object-fit: fill;
+  height: 21rem;
   width: 35rem;
 }
 
@@ -52,7 +68,7 @@
 }
 
 .tech {
-  position: relative;
+  position: static;
   padding-right: 24px;
 
   p {
