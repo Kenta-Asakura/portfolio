@@ -1,9 +1,12 @@
-/* Style inputs with type="text", select elements and textareas */
+// /* Style inputs with type="text", select elements and textareas */
 #contact {
-  display: flex;
-  justify-content: center;
   height: 100%;
   padding-bottom: 9em;
+}
+
+#contact-form-container {
+  display: flex;
+  justify-content: center;
 }
 
 #contact-form {
@@ -11,9 +14,10 @@
 }
 
 input[type=text], select, textarea {
+  color: white;
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
-  border: 1px solid #43dea0;
+  border: 1px solid #3c3c3c;
   background-color: rgb(128, 128, 128);
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -24,11 +28,12 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #43dea0;
-  box-shadow: 0 0 7px #43dea0,
-  0 0 14px #43dea0;
+  background-color: #52cecec2;
+  box-shadow: 0 0 5px #52cecebf,
+   0 0 12px #52cecebf;
   color: white;
   padding: 12px 20px;
+  margin-top: 16px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -37,5 +42,5 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #20eb9abf;
+  background-color: #3d9a9a;
 }

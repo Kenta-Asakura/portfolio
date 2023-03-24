@@ -1,4 +1,4 @@
-.header-left {
+.header-about-me {
   h1 {
     border-end-end-radius: 22px;
     font-size: 52px;
@@ -8,11 +8,11 @@
     width: 25%;
     box-shadow: 0 4px 2px -2px #5efdbebf,
                 0 6px 2px -2px #59e8afbf,
-                0 10px 2px -2px #4dcb99bf;
+                0 8px 2px -2px #4dcb99bf;
   }
 }
 
-.header-right {
+.header-projects {
   display: flex;
   justify-content: flex-end;
 
@@ -22,10 +22,26 @@
     border-bottom-left-radius: 22px;
     height: 65px;
     width: 25%;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     padding-left: 44px;
     box-shadow: 0 4px 2px -2px #7d6edc,
                 0 6px 2px -2px #7060da,
-                0 10px 2px -2px #6856dc;
+                0 8px 2px -2px #6856dc;
+  }
+}
+
+.header-contact {
+  padding: 0em 0em 3rem 12rem;
+
+  h1 {
+    border-end-end-radius: 22px;
+    font-size: 52px;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #64d1d1bf;
+    height: 4rem;
+    width: 20%;
+    box-shadow: 0 4px 2px -2px #52cecebf,
+                0 6px 2px -2px #52cecebf,
+                0 8px 2px -2px #52cecebf;
   }
 }
