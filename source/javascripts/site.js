@@ -7,22 +7,18 @@ let lastScrollY = window.scrollY;
 
 window.addEventListener('scroll', () => {
   let navbar = document.querySelector('.navbar');
+  // console.log(window.scrollY);
+
   if (lastScrollY < window.scrollY) {
-    // console.log('we are going down');
+    console.log('we are going down');
     navbar.classList.add("navbar-hidden");
   } else {
-    // console.log('we are going up');
+    console.log('we are going up');
     navbar.classList.remove("navbar-hidden");
   }
 
   // resets scroll value
   lastScrollY = window.scrollY;
-
-  // function projects_slidein() {
-  //   console.log(window.innerHeight);
-  // }
-
-  // projects_slidein();
 });
 
 
@@ -40,7 +36,7 @@ function projectLeftSlideIn() {
   projectsLeft.forEach((project) => {
     const projectLeftTop = project.getBoundingClientRect().top;
 
-    console.log(projectLeftTop);
+    // console.log(projectLeftTop);
     if (projectLeftTop < triggerBottom) {
       project.classList.add('show');
     } else {
