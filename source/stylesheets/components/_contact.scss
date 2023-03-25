@@ -10,14 +10,29 @@
 }
 
 #contact-form {
-  width: 62%;
+  width: 58%;
 }
 
-input[type=text], select, textarea {
+#input-name {
+  width: 50%;
+  padding-right: 12px;
+}
+
+#input-email {
+  width: 50%;
+  padding-left: 12  px;
+}
+
+
+input, label {
+  display:block;
+}
+
+input[type=text], [type=email], select, textarea {
   color: white;
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
-  border: 1px solid #3c3c3c;
+  // border: 1px solid #3c3c3c;
   background-color: rgb(128, 128, 128);
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -26,21 +41,20 @@ input[type=text], select, textarea {
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #52cecec2;
   box-shadow: 0 0 5px #52cecebf,
    0 0 12px #52cecebf;
   color: white;
-  padding: 12px 20px;
-  margin-top: 16px;
+  padding: 10px 20px;
+  margin-top: 32px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit input, add a darker green color */
 input[type=submit]:hover {
   background-color: #388686;
 }
