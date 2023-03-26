@@ -19,3 +19,143 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: #444e53;
 }
+
+@media screen and (max-width: 1920px) {
+
+}
+
+@media only screen and (max-width: 1397px) and (min-width: 768px) {
+  // .left, .main, .right {
+  //   width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  // }
+  #home {
+    padding-top: 13em;
+  }
+
+  .navbar {
+    height: 8%;
+  }
+
+  .nav-link a {
+    font-size: 21px;
+  }
+
+
+  .banner-left {
+    p {
+      font-size: 29px;
+    }
+
+    h3 {
+      font-size: 75px;
+      font-weight: bold;
+      color: $green;
+    }
+
+    span {
+      font-size: 21px;
+      color: #eae3e3;
+    }
+  }
+
+  .banner-right img {
+    zoom: 90%;
+  }
+
+  .banner-btns {
+    padding-top: 13px;
+  }
+
+  .header-about-me {
+    h1 {
+      font-size: 48px;
+      width: 31%;
+    }
+  }
+
+  .about-me-container {
+    p {
+      font-size: 17px;
+      padding-bottom: 13px;
+    }
+  }
+
+  #my-skills-header {
+    font-size: 44px;
+  }
+
+  .my-skills {
+    p {
+      font-size: 21px;
+    }
+
+    img {
+      zoom: 52%;
+    }
+  }
+
+
+  .header-projects {
+    h1 {
+      font-size: 48px;
+      width: 27%;
+    }
+  }
+
+  .project-img {
+    height: 20rem;
+    width: 33rem;
+  }
+
+  .project-description {
+    h2 {
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .view-project-btn {
+    padding: 0.1em 3.2em
+  }
+
+  .source-code-btn {
+    padding: 0.1em 1em;
+  }
+
+  .header-contact {
+    h1 {
+      font-size: 48px;
+      width: 23%;
+    }
+  }
+
+  #contact-container {
+    p {
+      font-size: 21px;
+    }
+  }
+
+  input[type=submit] {
+    padding: 8px 17px;
+    margin: 3rem 44rem;
+  }
+
+  .footer {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
