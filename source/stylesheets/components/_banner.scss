@@ -1,4 +1,5 @@
 .banner-content{
+  padding-top: 14rem;
   height: 100vh;
   display: flex;
 }
@@ -8,50 +9,50 @@
   display: flex;
   align-content: center;
   flex-direction: column;
-  padding-left: 200px;
+  padding-left: 12.5rem;
   overflow: hidden;
 
   p {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   h3 {
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: bold;
     color: $green;
   }
 
   span {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #eae3e3;
   }
 }
 
 .banner-btns {
-  padding-top: 16px;
+  padding-top: 1rem;
 
   a {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-decoration: none;
     color: gray;
-    padding-right: 16px;
+    padding-right: 2.5rem;
     transition: all .3s ease-in-out;
   }
 }
 
 .banner-btns a:hover {
   color: rgb(207, 204, 204);
-  font-size: 56px;
+  font-size: 3.5rem;
 }
 
 .banner-right {
   width: 50%;
-  padding-left: 100px;
+  padding-left: 6.25rem;
 
   img {
-    width: 380px;
-    height: 380px;
-    border-radius: 300px;
+    width: 23.75rem;
+    height: 23.75rem;
+    border-radius: 18.75rem;
     object-fit: cover;
     display: flex;
     align-content: center;
@@ -61,7 +62,7 @@
     0 0 42px #71e5b6bf,
     0 0 82px #71e5b6bf,
     0 0 94px #71e5b6bf;
-    animation: fadeInAnimation ease 5s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
