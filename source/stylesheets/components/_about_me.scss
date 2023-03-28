@@ -3,13 +3,14 @@
 }
 
 .about-me-container {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
-  padding: 0 15rem 5rem 15rem;
+  padding: 0 19% 0 19%;
+  margin: 0 auto;
 
   p {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     padding-bottom: 1rem;
   }
 }
@@ -17,7 +18,7 @@
 #my-skills-header {
   font-size: 3rem;
   text-align: center;
-  margin-bottom: -9.6875rem;
+  margin-bottom: 3rem;
   color: #dbfff1;
   text-shadow:  0 0 7px #5efdbebf,
   0 0 10px #5efdbebf,
@@ -25,15 +26,11 @@
   0 0 42px #5efdbebf;
 }
 
-.about-me-container {
-  padding-top: 2rem;
-}
-
 .my-skills {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 3fr));
   grid-template-rows: repeat(3, 1fr);
-  padding: 12.1875rem;
+  padding: 0rem 15rem 10rem 15rem;
 
   p {
     font-size: 1.5rem;

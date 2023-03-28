@@ -2,22 +2,25 @@
   padding-top: 14rem;
   height: 100vh;
   display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  // flex-grow: 1;
 }
 
 .banner-left {
-  width: 50%;
-  display: flex;
+  // flex: 50%;
   align-content: center;
   flex-direction: column;
   padding-left: 12.5rem;
   overflow: hidden;
+  order: 1;
 
   p {
     font-size: 2rem;
   }
 
   h3 {
-    font-size: 5rem;
+    font-size: 5.5rem;
     font-weight: bold;
     color: $green;
   }
@@ -35,7 +38,7 @@
     font-size: 2.5rem;
     text-decoration: none;
     color: gray;
-    padding-right: 2.5rem;
+    padding-right: 2rem;
     transition: all .3s ease-in-out;
   }
 }
@@ -46,8 +49,11 @@
 }
 
 .banner-right {
-  width: 50%;
-  padding-left: 6.25rem;
+  // flex: 50%;
+  // padding-left: 6.25rem;
+  flex: 1;
+  text-align: -webkit-center;
+  order: 2;
 
   img {
     width: 23.75rem;
@@ -62,7 +68,7 @@
     0 0 42px #71e5b6bf,
     0 0 82px #71e5b6bf,
     0 0 94px #71e5b6bf;
-    animation: fadeInAnimation ease 5s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
