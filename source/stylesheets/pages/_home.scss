@@ -5,7 +5,26 @@
 
 //  Responsiveness
 
+@media screen and (max-width: 1200px) {
+  // :root {
+  //   font-size: 14px;
+  // }
+
+  .projects-container {
+    padding: 0 8% 5% 8%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+
+}
+
 @media screen and (max-width: 990px) {
+
+  :root {
+    font-size: 14px;
+  }
+
   .banner-content {
     padding-top: 3rem;
     flex-direction: column-reverse;
@@ -13,6 +32,7 @@
 
     .banner-left {
       padding-top: 4rem;
+      padding-bottom: 17%;
       padding-left: 0;
       text-align: center;
     }
@@ -20,6 +40,47 @@
     .banner-right {
       padding-top: 5rem;
       order: 1;
+
+      img {
+        width: 21rem;
+        height: 21rem;
+      }
     }
+  }
+
+
+  .projects-container {
+    margin-top: 18%;
+  }
+
+  .project-left {
+    padding-right: 0;
+  }
+
+  .project-right {
+    padding-left: 0;
+  }
+
+  .project-1 {
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 5rem;
+  }
+
+  .project-2 {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  :root h1{
+    font-size: 3rem;
   }
 }

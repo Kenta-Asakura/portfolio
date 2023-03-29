@@ -3,7 +3,7 @@
 }
 
 .about-me-container {
-  height: 90vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   padding: 0 19% 0 19%;
@@ -15,9 +15,15 @@
   }
 }
 
+.my-skills-container {
+  height: 100%;
+  width: 70vw;
+}
+
 #my-skills-header {
   font-size: 3rem;
   text-align: center;
+  padding-top: 4rem;
   margin-bottom: 3rem;
   color: #dbfff1;
   text-shadow:  0 0 7px #5efdbebf,
@@ -28,9 +34,9 @@
 
 .my-skills {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 3fr));
+  padding: 0 19% 10% 19%;
   grid-template-rows: repeat(3, 1fr);
-  padding: 0rem 15rem 10rem 15rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 3fr));
 
   p {
     font-size: 1.5rem;
