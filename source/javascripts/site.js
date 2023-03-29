@@ -1,26 +1,21 @@
 // all js here
 
 // hide navbar on scroll down
-let navbar = document.querySelector('.navbar');
-// tells where Y axis you are (numbers in px)
-let lastScrollY = window.scrollY;
+let prevScrollpos = window.pageYOffset;
 
-window.addEventListener('scroll', () => {
-  let navbar = document.querySelector('.navbar');
-  // console.log(window.scrollY);
+window.onscroll = function() {
+  const currentScrollPos = window.pageYOffset;
 
-  if (lastScrollY < window.scrollY) {
-    console.log('we are going down');
-    navbar.classList.add("navbar-hidden");
+  if (prevScrollpos > currentScrollPos) {
+    // Scrolling up
+    document.querySelector(".navbar").classList.remove("hidden");
   } else {
-    console.log('we are going up');
-    navbar.classList.remove("navbar-hidden");
+    // Scrolling down
+    document.querySelector(".navbar").classList.add("hidden");
   }
 
-  // resets scroll value
-  lastScrollY = window.scrollY;
-});
-
+  prevScrollpos = currentScrollPos;
+};
 
 // projects slide in animation
 window.addEventListener('scroll', () => {
