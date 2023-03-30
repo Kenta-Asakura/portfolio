@@ -1,0 +1,19 @@
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-dropdown a {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-dropdown a {
+  display: block;
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+}
+
+

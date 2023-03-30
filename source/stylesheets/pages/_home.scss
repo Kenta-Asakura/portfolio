@@ -82,6 +82,22 @@
     font-size: 13px;
   }
 
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-dropdown {
+    display: none;
+  }
+
+  .navbar-dropdown.active {
+    display: block;
+  }
+
+
+  // .navbar [
+
+  // ]
   // input[type=submit] {
   //   margin-left: 78%;
   // }
