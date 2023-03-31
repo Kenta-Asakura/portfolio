@@ -4,12 +4,12 @@
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   z-index: 9999;
   overflow: hidden;
+  // justify-content: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .hidden {
@@ -17,16 +17,25 @@
   transition: transform 0.3s ease-out;
 }
 
-.navbar a {
-  padding: 0 1.1% 0 1.1%;
+.navbar img {
+  zoom: 8%;
+  // margin-left: -143%;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  padding: 0 6% 0 1.1%;
   text-decoration: none;
-  color: white;
+  color: #E7F4EF;
   font-size: 24px;
   font-family: 'Chakra Petch', 'sans-serif';
   position: relative;
 }
 
-.navbar a::after {
+.nav-links a::after {
   content: "";
   display: block;
   height: 3px;
@@ -37,12 +46,12 @@
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
-.navbar a:hover::after {
+.nav-links a:hover::after {
   width: 85%;
   left: 7%;
 }
 
-.navbar a:hover{
+.nav-links a:hover{
   color: $green;
 }
 
@@ -82,4 +91,3 @@
     }
   /* styles for the side panel menu go here */
 }
-
