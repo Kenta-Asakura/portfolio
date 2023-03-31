@@ -5,17 +5,32 @@ let prevScrollpos = window.pageYOffset;
 
 window.onscroll = function() {
   const currentScrollPos = window.pageYOffset;
+  const sidepanel = document.querySelector('.sidepanel');
 
   if (prevScrollpos > currentScrollPos) {
     // Scrolling up
     document.querySelector(".navbar").classList.remove("hidden");
   } else {
     // Scrolling down
+    sidepanel.classList.remove('show');
     document.querySelector(".navbar").classList.add("hidden");
   }
 
   prevScrollpos = currentScrollPos;
 };
+
+
+//
+document.addEventListener("DOMContentLoaded", function() {
+
+  const navbarMenuIcon = document.querySelector('.navbar-menu-icon');
+  const sidepanel = document.querySelector('.sidepanel');
+
+  navbarMenuIcon.addEventListener('click', () => {
+    sidepanel.classList.toggle('show');
+  });
+});
+
 
 // projects slide in animation
 window.addEventListener('scroll', () => {

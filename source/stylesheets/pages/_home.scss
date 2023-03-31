@@ -82,25 +82,18 @@
     font-size: 13px;
   }
 
-  .navbar-toggle {
-    display: block;
+  .navbar {
+    display: inherit;
   }
 
-  .navbar-dropdown {
-    display: none;
+  .navbar a:not(:last-child) {display: none;}
+  .navbar .navbar-menu-icon {
+    // padding: 2% 7% 0% 0%;
+    font-size: 163%;
+    padding: 0.5em 1.6em 0em 0em;
+    float: right;
+    display: flex;
   }
-
-  .navbar-dropdown.active {
-    display: block;
-  }
-
-
-  // .navbar [
-
-  // ]
-  // input[type=submit] {
-  //   margin-left: 78%;
-  // }
 }
 
 @media screen and (max-width: 480px) {
