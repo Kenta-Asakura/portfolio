@@ -99,6 +99,13 @@
   }
 }
 
+@media screen and (max-width: 683px) {
+  .my-skills {
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 3fr));
+    padding: 0 13% 10% 13%;
+  }
+}
+
 @media screen and (max-width: 480px) {
   :root h1{
     font-size: 3rem;
@@ -106,5 +113,14 @@
 
   .navbar img {
     zoom: 6%
+  }
+
+  .my-skills {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 3fr));
+    padding: 0 10% 10% 10%;
+
+    p img {
+      zoom: 42%;
+    }
   }
 }
