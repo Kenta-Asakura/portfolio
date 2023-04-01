@@ -12,6 +12,7 @@ window.onscroll = function() {
     document.querySelector(".navbar").classList.remove("hidden");
   } else {
     // Scrolling down
+    sidepanel.classList.remove('show');
     document.querySelector(".navbar").classList.add("hidden");
   }
 
