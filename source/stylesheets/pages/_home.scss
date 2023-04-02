@@ -3,6 +3,28 @@
   min-width: 90vw;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222733;
+  box-shadow: inset 0 0 5px #525e65;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #525e65;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444d53;
+}
+
 //  Responsiveness
 
 @media screen and (max-width: 1200px) {
