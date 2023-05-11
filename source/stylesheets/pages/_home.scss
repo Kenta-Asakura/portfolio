@@ -27,6 +27,16 @@
 
 //  Responsiveness
 @media screen and (max-width: 1200px) {
+  :root {
+    font-size: 16px;
+  }
+
+  .projects-container {
+    padding: 0 8% 5% 8%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
   // :root {
   //   font-size: 14px;
   // }
