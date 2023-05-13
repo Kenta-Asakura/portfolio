@@ -8,15 +8,6 @@ A simple way to build static pages with a Rails feel.
 - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [FontAwesome](https://fontawesome.com/icons)
 
-## Init a new project
-1. In the repo, click on the green `Code` button to copy your SSH address
-2. In Terminal, move to your code folder (or where you want to download the new repo)
-3. Clone the repository like this
-`git clone git@github.com:dmbf29/middleman-template.git middleman-portfolio`
-4. Move into the directory `cd middleman-portfolio`
-5. Remove the connection to my Github `git remote remove origin`
-6. Create your own repo `gh repo create`
-
 ### Installation
 ```
 gem install middleman
@@ -30,15 +21,6 @@ If you get a fatal error, you can try fixing it with `bundle update` and hope fo
 - `middleman`<br>
 or if that fails, try
 - `bundle exec middleman`
-
-## Deploy
-1. [Sign into Netlify](https://www.netlify.com/)
-2. Add new site -> Import an existing project -> Github
-3. Choose repository and branch
-4. Make sure your deploy settings look like this:
-<img width="400" alt="Screen Shot 2021-06-18 at 14 19 13" src="https://user-images.githubusercontent.com/25542223/122510271-49d34900-d040-11eb-853f-5105b5d48fcd.png">
-5. Website is deployed!
-6. (Add purchased domain)
 
 ## Meta Tags
 You can copy and paste these meta tags inside your `<head></head>` and update the information.
