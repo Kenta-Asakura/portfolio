@@ -1,19 +1,15 @@
 .banner-content{
-  padding-top: 19rem;
+  padding-top: 35vh;
   height: 100vh;
   display: flex;
-  // flex-wrap: wrap;
-  // justify-content: space-between;
-  // flex-grow: 1;
 }
 
 .banner-left {
-  // flex: 50%;
-  align-content: center;
-  flex-direction: column;
-  padding-left: 15%;
   overflow: hidden;
   order: 1;
+  flex: 1;
+  text-align: center;
+  padding-left: 8%;
 
   p {
     font-size: 2rem;
@@ -49,15 +45,13 @@
 }
 
 .banner-right {
-  // flex: 50%;
-  // padding-left: 6.25rem;
   flex: 1;
   text-align: -webkit-center;
   order: 2;
 
   img {
-    width: 23.75rem;
-    height: 23.75rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 18.75rem;
     object-fit: cover;
     display: flex;
