@@ -124,7 +124,12 @@
     }
   }
 
-  .nav-links a {display: none;}
+  .nav-links a {display: none;
+  }
+
+  #language-toggler { display: none;
+  }
+
   .navbar .navbar-menu-icon {
     // padding: 2% 7% 0% 0%;
     font-size: 163%;
