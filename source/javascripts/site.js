@@ -1,12 +1,12 @@
 // all js here
 
-// projects slide in animation
+// Projects slide in animation
 document.write('<script src="/javascripts/projectsSlider.js"></script>');
 
-// hide navbar on scroll down
+// Hide navbar on scroll down
 document.write('<script src="/javascripts/hideNavbar.js"></script>');
 
-// Toggles sidebar menu
+// TWoggles sidebar menu
 document.write('<script src="/javascripts/sidePanelToggler.js"></script>');
 
 // Contact form prevent redirecting
