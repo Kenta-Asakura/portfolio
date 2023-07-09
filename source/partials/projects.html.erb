@@ -6,43 +6,18 @@
   <div class='projects-content'>
     <div class='project-1'>
       <div class='project-left'>
-        <img src="/images/projects/CoolBeans.png" alt="" class='project-img'>
-         <%# <div class='project-credentials'>
-            <div class='project-credentials-text'>
-              <p>Username: kenta@yahoo.com</p>
-              <p>Password: secret</p>
-            </div>
-          </div> %>
+        <a href="https://coolbeanss.netlify.app/" target='blank' class='project-img-link'>
+          <img src="/images/projects/CoolBeans.png" alt="" class='project-img'>
+        </a>
       </div>
       <div class='project-right'>
         <div class='project-description'>
           <h2>CoolBeans</h2>
           <p>A coffee shop landing page utilized with Bootstrap and Sass.</p>
-          <div class='project-tech-stack'>
-            <div class='tech'>
-              <img src="images/tech-stack-icons/icons8-html-5-96.png" alt="">
-              <p>HTML</p>
-            </div>
-            <div class='tech'>
-              <img src="images/tech-stack-icons/icons8-css3-96.png" alt="">
-              <p>CSS</p>
-            </div>
-            <div class='tech'>
-              <img src="images/tech-stack-icons/icons8-javascript-96.png" alt="">
-              <p>JavaScript</p>
-            </div>
-            <div class='tech'>
-              <img src="images/tech-stack-icons/icons8-bootstrap-96.png" alt="">
-              <p>Bootstrap</p>
-            </div>
-            <div class='tech'>
-              <img src="images/tech-stack-icons/icons8-sass-avatar-96.png" alt="">
-              <p>SASS</p>
-            </div>
-          </div>
+          <%= partial 'partials/project_tech_stack' %>
           <div class='project-btns'>
-          <a href="https://coolbeanss.netlify.app/" target='_blank' class='view-project-btn'>View Project</a>
-          <a href="https://github.com/Kenta-Asakura/bootstrap-project" target='_blank' class='source-code-btn'>Source Code</a>
+            <a href="https://coolbeanss.netlify.app/" target='_blank' class='view-project-btn'>View Project</a>
+            <a href="https://github.com/Kenta-Asakura/bootstrap-project" target='_blank' class='source-code-btn'>Source Code</a>
           </div>
         </div>
       </div>
@@ -61,21 +36,25 @@
         </div>
       </div>
       <div class='project-right'>
-        <div class='image-container'>
-          <img src="images/projects/my-watch-list.png" alt="" class='project-img'>
-        </div>
-        <div class='project-credentials'>
-          <div class='project-credentials-text'>
-            <p>Username: kenta@yahoo.com</p>
-            <p>Password: secret</p>
+        <a href="https://my-watch-list-app.herokuapp.com/" target='blank' class='project-img-link'>
+          <div class='image-container'>
+            <img src="images/projects/my-watch-list.png" alt="" class='project-img'>
           </div>
-        </div>
+          <div class='project-credentials'>
+            <div class='project-credentials-text'>
+              <p>Username: kenta@yahoo.com</p>
+              <p>Password: secret</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
 
     <div class='project-3'>
       <div class='project-left'>
-        <img src="images/projects/kotoback.png" alt="" class='project-img'>
+        <a href="https://www.kotoback.net" target='blank' class='project-img-link'>
+          <img src="images/projects/kotoback.png" alt="" class='project-img'>
+        </a>
       </div>
       <div class='project-right'>
         <div class='project-description'>
