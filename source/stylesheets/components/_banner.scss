@@ -10,6 +10,9 @@
   flex: 1;
   text-align: center;
   padding-left: 8%;
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition:0.5s all ease-in-out;
 
   p {
     font-size: 2rem;
@@ -48,6 +51,9 @@
   flex: 1;
   text-align: -webkit-center;
   order: 2;
+  opacity: 0;
+  transform: translate3d(0, -100px, 0);
+  transition:0.5s all ease-in-out;
 
   img {
     width: 22rem;
@@ -62,17 +68,22 @@
     0 0 42px #71e5b6bf,
     0 0 82px #71e5b6bf,
     0 0 94px #71e5b6bf;
-    animation: fadeInAnimation ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    // animation: fadeInAnimation ease 4s;
+    // animation-iteration-count: 1;
+    // animation-fill-mode: forwards;
   }
 
-  @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-  }
+  // @keyframes fadeInAnimation {
+  //   0% {
+  //       opacity: 0;
+  //   }
+  //   100% {
+  //       opacity: 1;
+  //    }
+  // }
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
