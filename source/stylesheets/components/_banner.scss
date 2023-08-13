@@ -10,9 +10,6 @@
   flex: 1;
   text-align: center;
   padding-left: 8%;
-  opacity: 0;
-  transform: translate3d(0, 100px, 0);
-  transition:0.5s all ease-in-out;
 
   p {
     font-size: 2rem;
@@ -51,9 +48,6 @@
   flex: 1;
   text-align: -webkit-center;
   order: 2;
-  opacity: 0;
-  transform: translate3d(0, -100px, 0);
-  transition:0.5s all ease-in-out;
 
   img {
     width: 22rem;
@@ -81,9 +75,4 @@
   //       opacity: 1;
   //    }
   // }
-}
-
-.fade-in {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
 }
