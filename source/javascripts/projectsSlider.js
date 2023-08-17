@@ -1,8 +1,8 @@
 window.addEventListener('scroll', () => {
-  projectLeftSlideIn();
+  projectSlideIn();
 });
 
-function projectLeftSlideIn() {
+function projectSlideIn() {
   const projectsLeft = document.querySelectorAll('.project-left')
   const projectsRight = document.querySelectorAll('.project-right')
   const triggerBottom = window.innerHeight / 5 * 4;

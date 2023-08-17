@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
   setTimeout(function() {
     if (bannerLeft) {
-      bannerLeft.classList.add('fade-in');
+      bannerLeft.classList.add('banner-fade-in');
     }
     if (bannerRight) {
-      bannerRight.classList.add('fade-in');
+      bannerRight.classList.add('banner-fade-in');
     }
   }, 100);
 });
