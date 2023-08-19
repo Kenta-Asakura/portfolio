@@ -8,9 +8,7 @@
   box-shadow: 0 4px 2px -2px #5efdbebf, 0 6px 2px -2px #59e8afbf,
     0 8px 2px -2px #4dcb99bf;
   opacity: 0;
-  // animation: fadeInAnimation ease 2s;
-  // animation-iteration-count: 1;
-  // animation-fill-mode: forwards;
+  transition: opacity 1s;
 }
 
 .header-projects {
@@ -28,9 +26,7 @@
     box-shadow: 0 4px 2px -2px #7d6edc, 0 6px 2px -2px #7060da,
       0 8px 2px -2px #6856dc;
     opacity: 0;
-    // animation: fadeInAnimation ease 2s;
-    // animation-iteration-count: 1;
-    // animation-fill-mode: forwards;
+    transition: opacity 1s;
   }
 }
 
@@ -47,24 +43,10 @@
     box-shadow: 0 4px 2px -2px #52cecebf, 0 6px 2px -2px #52cecebf,
       0 8px 2px -2px #52cecebf;
     opacity: 0;
-    // animation: fadeInAnimation ease 2s;
-    // animation-iteration-count: 1;
-    // animation-fill-mode: forwards;
+    transition: opacity 1s;
   }
 }
 
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.header-fade-in {
+.header-fade-in h1 {
   opacity: 1;
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }

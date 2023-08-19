@@ -1,48 +1,25 @@
-window.addEventListener('scroll', () => {
+window.addEventListener("scroll", () => {
   headerFadeIn();
 });
 
 function headerFadeIn() {
-  const aboutMeHeader = document.querySelector('.header-about-me');
-  const projectsHeader = document.querySelector('.header-projects');
-  const contactHeader = document.querySelector('.header-contact');
-  const headerFadeInTrigger = window.innerHeight / 5 * 4;
-a
-  const aboutMePosition = aboutMeHeader.getBoundingClientRect();
-  const projectsPosition = projectsHeader.getBoundingClientRect();
-  const contactPosition = contactHeader.getBoundingClientRect();
+  const headerFadeInTrigger = (window.innerHeight / 5) * 4;
+  const headers = document.querySelectorAll(
+    ".header-about-me, .header-projects, .header-contact"
+  );
 
-  if (aboutMePosition < headerFadeInTrigger) {
-    aboutMeHeader.classList.add('header-fade-in');
-  }
-  if (projectsPosition < headerFadeInTrigger) {
-    projectsHeader.classList.add('header-fade-in');
-  }
-  if (contactPosition < headerFadeInTrigger) {
-    contactHeader.classList.add('header-fade-in');
-  }
+  headers.forEach((header) => {
+    const headerPosition = header.getBoundingClientRect().top;
+
+    if (
+      headerPosition < headerFadeInTrigger &&
+      !header.classList.contains("header-fade-in")
+    ) {
+      header.classList.add("header-fade-in");
+    }
+  });
+
+  // if (Array.from(headers).every(header => header.classList.contains('header-fade-in'))) {
+  //   window.removeEventListener('scroll', headerFadeIn);
+  // }
 }
-
-// const projectsHeader = document.querySelector('.header-projects');
-// const contactHeader = document.querySelector('.header-contact');
-// const headerFadeInTrigger = window.innerHeight / 5 * 4;
-
-// window.addEventListener('scroll', () => {
-//   headerFadeIn();
-// });
-
-// function headerFadeIn() {
-//   const aboutMePosition = aboutMeHeader.getBoundingClientRect();
-//   const projectsPosition = projectsHeader.getBoundingClientRect();
-//   const contactPosition = contactHeader.getBoundingClientRect();
-
-//   if (aboutMePosition.top < headerFadeInTrigger && !aboutMeHeader.classList.contains('header-fade-in')) {
-//     aboutMeHeader.classList.add('header-fade-in');
-//   }
-//   if (projectsPosition.top < headerFadeInTrigger && !projectsHeader.classList.contains('header-fade-in')) {
-//     projectsHeader.classList.add('header-fade-in');
-//   }
-//   if (contactPosition.top < headerFadeInTrigger && !contactHeader.classList.contains('header-fade-in')) {
-//     contactHeader.classList.add('header-fade-in');
-//   }
-// }
