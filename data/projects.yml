@@ -1,19 +1,22 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: CoolBeans
+  description: A coffee shop landing page utilized with Bootstrap and Sass.
+  tech_stack: projects/placeholder.png
+  live_link: https://coolbeanss.netlify.app/
+  source_code_link: https://github.com/Kenta-Asakura/bootstrap-project
+  image_path: /images/projects/CoolBeans.png
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: My Watch List
+  description: An entertainment app which gets info about the current movies and allow users to bookmark them.
+  tech_stack: projects/placeholder.png
+  live_link: https://my-watch-list-app.herokuapp.com/
+  source_code_link: https://github.com/Kenta-Asakura/my-watch-list
+  image_path: images/projects/my-watch-list.png
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Kotoback
+  description:
+    A web application where a user can upload epub book (Either Japanese to English, or English to Japanese.) and automatically generates flashcards
+    to let the user study before reading and have a smoother reading experience.
+  tech_stack: projects/placeholder.png
+  live_link: https://www.kotoback.net
+  source_code_link: https://github.com/Jtsoco/kotoback
+  image_path: images/projects/kotoback.png
