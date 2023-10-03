@@ -35,8 +35,8 @@
 .my-skills {
   display: grid;
   padding: 0 19% 10% 19%;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 3fr));
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 1rem;
 
   p {
     font-size: 1.5rem;
