@@ -1,22 +1,29 @@
 - name: CoolBeans
   description: A coffee shop landing page utilized with Bootstrap and Sass.
-  tech_stack: projects/placeholder.png
+  tech_stack:
+    - HTML: ./source/images/tech-stack-icons/icons8-html-5-96.png
+    - Sass: ./source/images/tech-stack-icons/icons8-sass-avatar-96.png
+    - Bootstrap: ./source/images/tech-stack-icons/icons8-bootstrap-96.png
   live_link: https://coolbeanss.netlify.app/
   source_code_link: https://github.com/Kenta-Asakura/bootstrap-project
   image_path: /images/projects/CoolBeans.png
 
 - name: My Watch List
-  description: An entertainment app which gets info about the current movies and allow users to bookmark them.
-  tech_stack: projects/placeholder.png
+  description: An entertainment app which gets info about the current movies and allows users to bookmark them.
+  tech_stack:
+    - Ruby: ./source/images/tech-stack-icons/icons8-html-5-96.png
+    - Rails: ./source/images/tech-stack-icons/icons8-rails-a-server-side-web-application-framework-written-in-ruby-96.png
+    - PostgreSQL: ./source/images/tech-stack-icons/icons8-postgresql-100.png
   live_link: https://my-watch-list-app.herokuapp.com/
   source_code_link: https://github.com/Kenta-Asakura/my-watch-list
   image_path: images/projects/my-watch-list.png
 
 - name: Kotoback
-  description:
-    A web application where a user can upload epub book (Either Japanese to English, or English to Japanese.) and automatically generates flashcards
-    to let the user study before reading and have a smoother reading experience.
-  tech_stack: projects/placeholder.png
+  description: A web application where a user can upload an epub book (Either Japanese to English, or English to Japanese.) and automatically generates flashcards to let the user study before reading and have a smoother reading experience.
+  tech_stack:
+    - Ruby: ./source/images/tech-stack-icons/icons8-html-5-96.png
+    - Rails: ./source/images/tech-stack-icons/icons8-rails-a-server-side-web-application-framework-written-in-ruby-96.png
+    - PostgreSQL: ./source/images/tech-stack-icons/icons8-postgresql-100.png
   live_link: https://www.kotoback.net
   source_code_link: https://github.com/Jtsoco/kotoback
   image_path: images/projects/kotoback.png
