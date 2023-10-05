@@ -25,31 +25,16 @@
   padding-bottom: 0;
 }
 
-
-// .project-right {
-//   width: 100%;
-//   padding-left: 4%;
-//   transform: translateX(57rem);
-//   transition: transform 0.9s ease;
-// }
-
-// .project-left {
-  //   width: 100%;
-  //   padding-right: 4%;
-  //   transform: translateX(-73rem);
-  //   transition: transform 0.9s ease;
-
-  //   .project-img:hover {
-    //     opacity: 85%;
-//   }
-// }
-
 .project-left {
   transform: translateX(-73rem);
 }
 
 .project-right {
   transform: translateX(73rem);
+}
+
+.project-right {
+  order: 2;
 }
 
 .project-left,

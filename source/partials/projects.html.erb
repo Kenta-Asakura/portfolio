@@ -4,7 +4,7 @@
     <h1>PROJECTS</h1>
   </div>
   <div class='projects-content'>
-      <% data.projects.each_with_index do |project, index| %>
+    <% data.projects.each_with_index do |project, index| %>
       <div class='project-<%= index + 1 %>'>
           <% project_position = (index + 1).odd? ? 'left' : 'right' %>
           <div class='project-<%= project_position %>'>
@@ -20,7 +20,7 @@
               </div>
             </a>
           </div>
-          
+
           <div class='project-<%= project_position == "left" ? "right" : "left" %>'>
             <div class='project-description'>
               <h2><%= project.name %></h2>
@@ -32,7 +32,7 @@
               </div>
             </div>
           </div>
-        </div>
+      </div>
     <% end %>
   </div>
 </div>

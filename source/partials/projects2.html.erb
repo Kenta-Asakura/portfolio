@@ -1,10 +1,9 @@
-<div id='projects'></div>
+<#<div id='projects'></div>
 <div class="projects-container">
   <div class='header-projects'>
     <h1>PROJECTS</h1>
   </div>
   <div class='projects-content'>
-    <% data.projects.each do |project| %>
     <div class='project-1'>
       <div class='project-left'>
         <a href="https://coolbeanss.netlify.app/" target='_blank' class='project-img-link'>
@@ -13,9 +12,8 @@
       </div>
       <div class='project-right'>
         <div class='project-description'>
-          <h2><%#= project.name %></h2>
+           <h2>Coolbeans</h2>
           <p>A coffee shop landing page utilized with Bootstrap and Sass.</p>
-          <%= partial 'partials/project_tech_stack' %>
           <div class='project-btns'>
             <a href="https://coolbeanss.netlify.app/" target='_blank' class='view-project-btn'>View Project</a>
             <a href="https://github.com/Kenta-Asakura/bootstrap-project" target='_blank' class='source-code-btn'>Source Code</a>
@@ -70,6 +68,5 @@
         </div>
       </div>
     </div>
-    <%# end %>
   </div>
 </div>
