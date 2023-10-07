@@ -1,15 +1,18 @@
-<div class='project-tech-stack'>
-  <div class='tech'>
-    <img src="images/tech-stack-icons/icons8-rails-a-server-side-web-application-framework-written-in-ruby-96.png" alt="">
-    <p>Rails</p>
+<% data.projects.each do |project| %>
+  <div class='project-tech-stack'>
+    <% project.tech_stack.each do |tech_name, tech_url| %>
+    <div class='tech'>
+      <img src='<%= tech_url %>' alt="">
+      <p><%= tech_name %></p>
+    </div>
+    <%# <div class='tech'>
+      <img src="images/tech-stack-icons/icons8-ruby-programming-language-96.png" alt="">
+      <p>Ruby</p>
+    </div>
+    <div class='tech'>
+      <img src="images/tech-stack-icons/icons8-postgresql-100.png" alt="">
+      <p>PostrgreSQL</p>
+    </div> %>
+    <% end %>
   </div>
-  <div class='tech'>
-    <img src="images/tech-stack-icons/icons8-ruby-programming-language-96.png" alt="">
-    <p>Ruby</p>
-  </div>
-  <div class='tech'>
-    <img src="images/tech-stack-icons/icons8-postgresql-100.png" alt="">
-    <p>PostrgreSQL</p>
-  </div>
-</div>
-
+<% end %>
