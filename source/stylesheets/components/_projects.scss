@@ -13,15 +13,13 @@
   flex-direction: column;
 }
 
-.project-1,
-.project-2,
-.project-3 {
+.project-1, .project-2, .project-3, .project-4 {
   display: flex;
   align-content: space-between;
   padding-bottom: 11rem;
 }
 
-.project-3 {
+.project-4 {
   padding-bottom: 0;
 }
 
