@@ -1,5 +1,5 @@
 - name: Huddle
-  description: A fictional landing page developed with React and Styled-components. Building this project helped me understand a lot more about React.
+  description: Huddle Landing Page is a React and Styled-components project that deepened my understanding of React while honing my UI/UX design skills.
   tech_stack:
     - 'React': /images/tech-stack-icons/icons8-react-native-96.png
     - 'Styled-components': ./images/tech-stack-icons/icons8-styled-components-96.png
