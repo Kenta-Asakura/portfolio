@@ -66,10 +66,10 @@
 }
 
 @media screen and (max-width: 990px) {
-
   :root {
     font-size: 14px;
   }
+
 
   .banner-content {
     padding-top: 3rem;
@@ -92,23 +92,17 @@
         height: 21rem;
       }
     }
-
-    // input[type=submit] {
-    //   margin-left: 80%;
-    // }
   }
 
+    // input[type=submit] {
+      //   margin-left: 80%;
+      // }
+  .project-left, .project-right {
+    padding: 0;
+  }
 
   .projects-container {
     margin-top: 18%;
-  }
-
-  .project-left {
-    padding-right: 0;
-  }
-
-  .project-right {
-    padding-left: 0;
   }
 
   .project-1 {
