@@ -27,12 +27,12 @@
   source_code_link: https://github.com/Kenta-Asakura/my-watch-list
   image_path: images/projects/my-watch-list.png
 
-- name: Kotoback
-  description: A web application where a user can upload an epub book (Either Japanese to English, or English to Japanese.) and automatically generates flashcards to let the user study before reading and have a smoother reading experience.
-  tech_stack:
-    - 'Ruby': ./images/tech-stack-icons/icons8-ruby-programming-language-96.png
-    - 'Rails': ./images/tech-stack-icons/icons8-rails-a-server-side-web-application-framework-written-in-ruby-96.png
-    - 'PostgreSQL': ./images/tech-stack-icons/icons8-postgresql-100.png
-  live_link: https://www.kotoback.net
-  source_code_link: https://github.com/Jtsoco/kotoback
-  image_path: images/projects/kotoback.png
+# - name: Kotoback
+#   description: A web application where a user can upload an epub book (Either Japanese to English, or English to Japanese.) and automatically generates flashcards to let the user study before reading and have a smoother reading experience.
+#   tech_stack:
+#     - 'Ruby': ./images/tech-stack-icons/icons8-ruby-programming-language-96.png
+#     - 'Rails': ./images/tech-stack-icons/icons8-rails-a-server-side-web-application-framework-written-in-ruby-96.png
+#     - 'PostgreSQL': ./images/tech-stack-icons/icons8-postgresql-100.png
+#   live_link: https://www.kotoback.net
+#   source_code_link: https://github.com/Jtsoco/kotoback
+#   image_path: images/projects/kotoback.png
