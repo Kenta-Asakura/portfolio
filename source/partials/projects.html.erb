@@ -25,16 +25,12 @@
             <div class='project-description'>
               <h2><%= project.name %></h2>
               <p><%= project.description %></p>
-              <%#= partial 'partials/project_tech_stack' %>
               <div class='project-tech-stack'>
-              <% project.tech_stack.each do |tech_stack| %>
-                <% tech_stack.each do |key, value| %>
+              <% project.tech_stack.each do |tech_name| %>
                   <div class='tech'>
-                    <p><%= key %></p>
-                    <img src='<%= value %>' alt="">
-                    <%# <img src="= data.tech_stack.techs['React']" alt="">%>
+                    <p><%= tech_name %></p>
+                    <img src='<%= data.tech_stack[tech_name] %>' alt="">
                   </div>
-                <% end %>
               <% end %>
             </div>
               <div class='project-btns'>
