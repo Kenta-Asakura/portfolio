@@ -26,6 +26,9 @@
   live_link: https://my-watch-list-app.herokuapp.com/
   source_code_link: https://github.com/Kenta-Asakura/my-watch-list
   image_path: images/projects/my-watch-list.png
+  project_credentials:
+    - username: kenta@yahoo.com
+    - password: secret
 
 # - name: Kotoback
 #   description: A web application where a user can upload an epub book (Either Japanese to English, or English to Japanese.) and automatically generates flashcards to let the user study before reading and have a smoother reading experience.

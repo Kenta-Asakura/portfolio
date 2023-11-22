@@ -42,7 +42,7 @@
   left: 50%;
   position: absolute;
   width: 0px;
-  background: rgba(113, 229, 182, 0.99);
+  background: $primary-accent;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
@@ -52,11 +52,9 @@
 }
 
 .nav-links a:hover{
-  color: $green;
+  color: $primary-accent;
 }
 
 .navbar .navbar-menu-icon {
   display: none;
 }
-
-
