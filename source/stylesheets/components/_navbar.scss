@@ -55,3 +55,36 @@
 .navbar .navbar-menu-icon {
   display: none;
 }
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 13px;
+  }
+
+  .navbar {
+    display: flex;
+
+    img {
+      zoom: 7%
+    }
+  }
+
+  .main-nav__list {
+    display: none;
+  }
+
+  #navbar-language-toggler {
+    display: none;
+  }
+
+  // #sidepanel-language-toggler {
+
+  // }
+
+  .navbar .navbar-menu-icon {
+    // padding: 2% 7% 0% 0%;
+    font-size: 163%;
+    float: right;
+    display: flex;
+  }
+}

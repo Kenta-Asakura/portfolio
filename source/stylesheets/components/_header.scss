@@ -62,17 +62,54 @@
     0 0 42px #71e5b6bf,
     0 0 82px #71e5b6bf,
     0 0 94px #71e5b6bf;
-    // animation: fadeInAnimation ease 4s;
-    // animation-iteration-count: 1;
-    // animation-fill-mode: forwards;
+  }
+}
+
+@media screen and (min-width:991px) {
+  .banner-left {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+    transition:0.5s all ease-in-out;
   }
 
-  // @keyframes fadeInAnimation {
-  //   0% {
-  //       opacity: 0;
-  //   }
-  //   100% {
-  //       opacity: 1;
-  //    }
-  // }
+  .banner-right {
+    opacity: 0;
+    transform: translate3d(0, -100px, 0);
+    transition:0.5s all ease-in-out;
+  }
+
+  .banner-fade-in {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media screen and (max-width: 990px) {
+  :root {
+    font-size: 14px;
+  }
+
+
+  .banner-content {
+    padding-top: 3rem;
+    flex-direction: column-reverse;
+    height: auto;
+
+    .banner-left {
+      padding-top: 4rem;
+      padding-bottom: 17%;
+      padding-left: 0;
+      text-align: center;
+    }
+
+    .banner-right {
+      padding-top: 5rem;
+      order: 1;
+
+      img {
+        width: 21rem;
+        height: 21rem;
+      }
+    }
+  }
 }
