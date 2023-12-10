@@ -37,10 +37,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  // :root {
-  //   font-size: 14px;
-  // }
-
   .projects-container {
     padding: 0 8% 5% 8%;
   }
@@ -105,20 +101,19 @@
     margin-top: 18%;
   }
 
-  .project-1 {
-    height: auto;
-    flex-direction: column;
+  .projects-content:not(:last-child) {
     padding-bottom: 5rem;
   }
-
+  .project-1, .project-2, .project-3 {
+    height: auto;
+  }
+  .project-1 {
+    flex-direction: column;
+  }
   .project-2 {
     flex-direction: column-reverse;
-    height: auto;
-    padding-bottom: 5rem;
   }
-
   .project-3 {
-    height: auto;
     flex-direction: column;
   }
 }
