@@ -37,7 +37,7 @@
   left: 50%;
   position: absolute;
   width: 0px;
-  background: $primary-accent;
+  background: $color-primary;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 .main-nav__item:hover::after {
@@ -45,7 +45,7 @@
   left: -7%;
 }
 .main-nav__item a:hover{
-  color: $primary-accent;
+  color: $color-primary;
 }
 .main-nav__link {
   color: #E7F4EF;
