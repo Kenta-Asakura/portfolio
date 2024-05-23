@@ -26,7 +26,7 @@ $bp-desktop-xl: 1800px;
   }
 
   @if $breakpoint == mobile-devices-landscape {
-    @media only screen and (max-width: $bp-tablet - 1) and (orientation: landscape;) { @content };
+    @media only screen and (max-width: $bp-tablet - 1) and (orientation: landscape) { @content };
   }
 
   @if $breakpoint == desktop {
