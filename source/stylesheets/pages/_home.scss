@@ -28,10 +28,6 @@
 
 // Responsiveness
 @media screen and (max-width: 1200px) {
-  :root {
-    font-size: 16px;
-  }
-
   .projects-container {
     padding: 0 8% 5% 8%;
   }
@@ -63,15 +59,10 @@
 }
 
 @media screen and (max-width: 990px) {
-  :root {
-    font-size: 14px;
-  }
-
-
   .banner-content {
     padding-top: 3rem;
     flex-direction: column-reverse;
-    height: auto;
+    // height: auto;
 
     .banner-left {
       padding-top: 4rem;
@@ -91,9 +82,6 @@
     }
   }
 
-    // input[type=submit] {
-      //   margin-left: 80%;
-      // }
   .project-left, .project-right {
     padding: 0;
   }
@@ -120,10 +108,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  :root {
-    font-size: 13px;
-  }
-
   .navbar {
     display: flex;
 
@@ -160,10 +144,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  :root h1{
-    font-size: 3rem;
-  }
-
   .navbar img {
     zoom: 6%
   }

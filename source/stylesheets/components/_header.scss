@@ -1,6 +1,7 @@
-.banner-content{
+.banner-content {
   padding-top: 35vh;
-  height: 100vh;
+  // height: 100vh;
+  min-height: 100vh;
   display: flex;
 }
 
@@ -9,7 +10,7 @@
   order: 1;
   flex: 1;
   text-align: center;
-  padding-left: 8%;
+  // padding-left: 8%;
 
   p {
     font-size: 2rem;
@@ -85,11 +86,6 @@
 }
 
 @media screen and (max-width: 990px) {
-  :root {
-    font-size: 14px;
-  }
-
-
   .banner-content {
     padding-top: 3rem;
     flex-direction: column-reverse;
