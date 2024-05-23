@@ -1,0 +1,43 @@
+// BREAKPOINTS
+$bp-mobile-s: 480px;
+$bp-mobile: 768px;
+$bp-tablet: 1024px;
+$bp-desktop: $bp-tablet;
+$bp-desktop-l: 1440px;
+$bp-desktop-xl: 1800px;
+
+// ORDER: Base + typography > general layout + grid > page layout > components
+// 1em = 16px
+@mixin respond($breakpoint) {
+  @if $breakpoint == mobile-small {
+    @media only screen and (max-width: $bp-mobile-s - 1) { @content };
+  }
+
+  @if $breakpoint == mobile {
+    @media only screen and (min-width: $bp-mobile - 1) { @content };
+  }
+
+  @if $breakpoint == tablet {
+    @media only screen and (min-width: $bp-mobile) and (max-width: $bp-tablet - 1) { @content };
+  }
+
+  @if $breakpoint == mobile-devices {
+    @media only screen and (max-width: $bp-tablet - 1) { @content };
+  }
+
+  @if $breakpoint == mobile-devices-landscape {
+    @media only screen and (max-width: $bp-tablet - 1) and (orientation: landscape;) { @content };
+  }
+
+  @if $breakpoint == desktop {
+    @media only screen and (min-width: $bp-desktop) { @content };
+  }
+
+  @if $breakpoint == desktop-large {
+    @media only screen and (min-width: $bp-desktop-l) { @content };
+  }
+
+  @if $breakpoint == desktop-extra-large {
+    @media only screen and (min-width: $bp-desktop-xl) { @content };
+  }
+}
