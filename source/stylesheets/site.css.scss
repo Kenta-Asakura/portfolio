@@ -8,11 +8,9 @@
 @import "bootstrap/bootstrap";
 
 // Your CSS partials
+@import "abstracts/index";
+@import "base/index";
 @import "components/index";
+// @import "layout/index";
+
 @import "pages/home";
-
-// Abstract
-@import "abstracts/breakpoints";
-
-// Base
-@import "base/base";

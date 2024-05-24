@@ -26,8 +26,6 @@ html {
 body {
     box-sizing: border-box;
     padding: 3rem;
-
-    // @include respond(tab-port) {
-    //   padding: 0;
-    // }
 }
+
+$bp-desktop-l: 1440px;
