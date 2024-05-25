@@ -33,7 +33,7 @@ body {
   color: $color-primary;
   // animation: moveInLeft 1s ease-out;
 
-  @include respond(phone) {
+  @include respond(mobile) {
     letter-spacing: 1rem;
     font-family: 5rem;
   }
