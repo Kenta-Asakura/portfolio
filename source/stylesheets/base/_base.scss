@@ -14,7 +14,7 @@ html {
     font-size: 75%; // 1rem, = 12px, 12/16
   }
 
-  @include respond(mobile-devices-landscape) {
+  @include respond(tablet) {
     font-size: 56.25%; //
   }
 
@@ -31,7 +31,6 @@ body {
   @include respond(mobile) { padding: 1.6rem; }
 
   img {
-    display: block;
-    width: 100%;
+    max-width: 100%;
   }
 }

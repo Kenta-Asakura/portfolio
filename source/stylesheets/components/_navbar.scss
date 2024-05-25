@@ -1,15 +1,81 @@
-.navbar {
+.main-nav {
   background: $gray;
-  height: 4.5rem;
+  min-height: 70px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 999;
   overflow: hidden;
-  // justify-content: center;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+
+  img {
+    height: 4rem;
+    width: 8rem;
+  }
+
+  &__list {
+    display: flex;
+    gap: 0 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__item {
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      height: 3px;
+      left: 50%;
+      position: absolute;
+      width: 0px;
+      background: $color-primary;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    }
+
+    &:hover::after {
+      width: 100%;
+      left: -7%;
+    }
+
+    & a:hover{
+      color: $color-primary;
+    }
+  }
+
+  &__link {
+    color: #E7F4EF;
+    font-size: 24px;
+    font-family: 'Chakra Petch', 'sans-serif';
+    text-decoration: none;
+  }
+
+  @include respond(mobile) {
+    display: flex;
+
+    img {
+      zoom: 7%
+    }
+
+    &__list {
+      display: none;
+    }
+
+    #main-nav-language-toggler {
+      display: none;
+    }
+
+    .main-nav .main-nav-menu-icon {
+      font-size: 163%;
+      float: right;
+      display: flex;
+    }
+  }
 }
 
 .hidden {
@@ -17,75 +83,6 @@
   transition: transform 0.3s ease-out;
 }
 
-.navbar img {
-  zoom: 8%;
-  // margin-left: -143%;
-}
-.main-nav__list {
-  display: flex;
-  list-style: none;
-  margin: 12px 23px 0 0;
-}
-.main-nav__item {
-  padding: 0 6% 0 1.1%;
-  position: relative;
-}
-.main-nav__item::after {
-  content: "";
-  display: block;
-  height: 3px;
-  left: 50%;
-  position: absolute;
-  width: 0px;
-  background: $color-primary;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-}
-.main-nav__item:hover::after {
-  width: 100%;
-  left: -7%;
-}
-.main-nav__item a:hover{
-  color: $color-primary;
-}
-.main-nav__link {
-  color: #E7F4EF;
-  font-size: 24px;
-  font-family: 'Chakra Petch', 'sans-serif';
-  text-decoration: none;
-}
-.navbar .navbar-menu-icon {
+.main-nav .main-nav-menu-icon {
   display: none;
-}
-
-@media screen and (max-width: 768px) {
-  :root {
-    font-size: 13px;
-  }
-
-  .navbar {
-    display: flex;
-
-    img {
-      zoom: 7%
-    }
-  }
-
-  .main-nav__list {
-    display: none;
-  }
-
-  #navbar-language-toggler {
-    display: none;
-  }
-
-  // #sidepanel-language-toggler {
-
-  // }
-
-  .navbar .navbar-menu-icon {
-    // padding: 2% 7% 0% 0%;
-    font-size: 163%;
-    float: right;
-    display: flex;
-  }
 }
