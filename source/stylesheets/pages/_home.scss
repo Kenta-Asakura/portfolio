@@ -2,6 +2,10 @@
   margin-inline: auto; // needed?
   min-width: 90vw; // needed?
   max-width: 1140px;
+  padding: 3rem;
+
+  @include respond(tablet) { padding: 2rem; }
+  @include respond(mobile) { padding: 1.6rem; }
 }
 
 /* width */

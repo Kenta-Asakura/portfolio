@@ -25,10 +25,7 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem;
-
-  @include respond(tablet) { padding: 2rem; }
-  @include respond(mobile) { padding: 1.6rem; }
+  margin: 0;
 
   img {
     max-width: 100%;
