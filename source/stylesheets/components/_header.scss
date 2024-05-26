@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-evenly;
 
-  @media screen and (max-width: $bp-desktop-l) {
+  @include respond(mobile-devices) {
     flex-direction: column-reverse;
   }
 

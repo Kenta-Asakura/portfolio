@@ -30,17 +30,20 @@
     &::after {
       content: "";
       display: block;
-      height: 3px;
+      // height: 3px;
       left: 50%;
       position: absolute;
       width: 0px;
       background: $color-primary;
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
+
+      height: 1.5px;
     }
 
     &:hover::after {
-      width: 100%;
+      // width: 100%;
       left: -7%;
+      width: 111%;
     }
 
     & a:hover{
@@ -50,17 +53,18 @@
 
   &__link {
     color: #E7F4EF;
-    font-size: 24px;
+    font-size: 2rem;
     font-family: 'Chakra Petch', 'sans-serif';
     text-decoration: none;
   }
 
+  @include respond(mobile-devices) {
+    min-height: 60px;
+  }
+
   @include respond(mobile) {
     display: flex;
-
-    img {
-      zoom: 7%
-    }
+    justify-content: space-between;
 
     &__list {
       display: none;
