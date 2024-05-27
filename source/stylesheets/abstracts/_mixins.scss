@@ -12,3 +12,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+// @mixin heading-color($color-name) {
+//   &--#{$color-name} {
+//     border-bottom: 2px solid #{$color-name};
+//     box-shadow: 0 4px 2px -2px #{$color-name},
+//                 0 6px 2px -2px #{$color-name + '-dark-1'},
+//                 0 8px 2px -2px #{$color-name + '-dark-2'};
+//   }
+// }
