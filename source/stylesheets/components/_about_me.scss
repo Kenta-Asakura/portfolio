@@ -2,22 +2,40 @@
   // transform: translateY(-10vh)
 }
 
-.about-me-container {
+.about {
   height: 100%;
   display: flex;
   flex-direction: column;
   padding: 0 19% 0 19%;
   margin: 0 auto;
 
-  p {
-    font-size: 1.2rem;
-    padding-bottom: 1rem;
+  &__text-box {
+    p {
+      font-size: 1.6rem;
+      padding-bottom: 1rem;
+    }
   }
-}
 
-.my-skills-container {
-  height: 100%;
-  width: 70vw;
+  &__skills-box {
+    // height: 100%;
+    // width: 70vw;
+
+    display: grid;
+    padding: 0 19% 10% 19%;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+
+    p {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      text-align: center;
+
+      img {
+        zoom: 60%;
+      }
+    }
+  }
 }
 
 #my-skills-header {
@@ -30,22 +48,4 @@
   0 0 10px #5efdbebf,
   0 0 21px #5efdbebf,
   0 0 42px #5efdbebf;
-}
-
-.my-skills {
-  display: grid;
-  padding: 0 19% 10% 19%;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  grid-gap: 1rem;
-
-  p {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    text-align: center;
-
-    img {
-      zoom: 60%;
-    }
-  }
 }

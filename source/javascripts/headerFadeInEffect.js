@@ -5,7 +5,7 @@ window.addEventListener("scroll", () => {
 function headerFadeIn() {
   const headerFadeInTrigger = (window.innerHeight / 5) * 4;
   const headers = document.querySelectorAll(
-    ".header-about-me, .header-projects, .header-contact"
+    ".about-header, .header-projects, .header-contact"
   );
 
   headers.forEach((header) => {
