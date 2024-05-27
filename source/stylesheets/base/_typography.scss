@@ -70,6 +70,44 @@ body {
   // text-shadow: .5rem 1rem 2rem rgba(#000, .2);
   // // transform: skewX(50deg);
   // }
+
+  font-size: 3.25rem;
+  width: 5.5em;
+  width: calc(max-content + 2rem);
+  border-bottom: 2px solid #8aeac3bf;
+  border-end-end-radius: 22px;
+  box-shadow:
+    0 4px 2px -2px #5efdbebf,
+    0 6px 2px -2px #59e8afbf,
+    0 8px 2px -2px #4dcb99bf;
+
+  // opacity: 0;
+  transition: opacity 1s;
+
+  &--green {
+    border-bottom: 2px solid $color-primary;
+    box-shadow:
+    0 4px 2px -2px $color-primary,
+    0 6px 2px -2px $color-primary-dark-1,
+    0 8px 2px -2px $color-primary-dark-2;
+  }
+
+  &--purple {
+    margin-left: auto;
+    border-bottom: 2px solid $color-secondary;
+    box-shadow:
+    0 4px 2px -2px $color-secondary,
+    0 6px 2px -2px $color-secondary-dark-1,
+    0 8px 2px -2px $color-secondary-dark-2;
+  }
+
+  &--blue {
+    border-bottom: 2px solid $color-tertiary;
+    box-shadow:
+    0 4px 2px -2px $color-tertiary,
+    0 6px 2px -2px $color-tertiary-dark-1,
+    0 8px 2px -2px $color-tertiary-dark-2;
+  }
 }
 
 .heading-tertiary {

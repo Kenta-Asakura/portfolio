@@ -29,7 +29,7 @@
                 0 6px 2px -2px #7060da,
                 0 8px 2px -2px #6856dc;
 
-    opacity: 0;
+    // opacity: 0;
     transition: opacity 1s;
   }
 }
@@ -51,6 +51,6 @@
   }
 }
 
-.header-fade-in h1 {
+.header-fade-in h2 {
   opacity: 1;
 }
