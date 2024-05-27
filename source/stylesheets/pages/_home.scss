@@ -1,11 +1,31 @@
 .main-container {
   margin-inline: auto; // needed?
-  min-width: 90vw; // needed?
   max-width: 1140px;
-  padding: 3rem;
+}
 
-  @include respond(tablet) { padding: 2rem; }
-  @include respond(mobile) { padding: 1.6rem; }
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 10rem;
+
+  @include respond(tablet) {
+    max-width: 960px;
+    padding: 0 8rem;
+  }
+
+  @include respond(mobile) {
+    max-width: 720px;
+    padding: 0 5rem;
+  }
+
+  @include respond(mobile-small) {
+    max-width: 540px;
+    padding: 0 3rem;
+  }
+}
+
+.container-fluid {
+  max-width: 100%;
 }
 
 /* width */
