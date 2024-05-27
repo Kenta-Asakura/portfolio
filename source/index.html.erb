@@ -1,14 +1,23 @@
-<%= partial 'partials/navbar' %>
+<header>
+  <%= partial 'partials/main-nav' %>
+</header>
 
-<div class='main-container'>
-  <!-- Banner Section -->
-  <%= partial 'partials/header' %>
-  <!-- About Section -->
-  <%= partial 'partials/about' %>
-  <!-- Projects Section -->
-  <%= partial 'partials/projects' %>
-  <!-- Social Links Section -->
-  <%= partial 'partials/contact' %>
+<main>
+  <div class='main-container'>
+    <!-- Hero Section -->
+    <%= partial 'partials/hero' %>
 
+    <!-- About Section -->
+    <%= partial 'partials/about' %>
+
+    <!-- Projects Section -->
+    <%= partial 'partials/projects' %>
+
+    <!-- Social Links Section -->
+    <%= partial 'partials/contact' %>
+  </div>
+</main>
+
+<footer>
   <%= partial 'partials/footer' %>
-</div>
+</footer>
