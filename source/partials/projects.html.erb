@@ -1,48 +1,47 @@
 <div id='projects'></div>
-<section>
-  <div class="projects-container">
-    <h2 class="heading-secondary heading-secondary--color-secondary">PROJECTS</h2>
+<section class='projects'>
+  <h2 class="heading-secondary heading-secondary--color-secondary u-mb-m">PROJECTS</h2>
 
-    <div class='projects-content'>
-      <% data.projects.each_with_index do |project, index| %>
-        <div class='project-<%= index + 1 %>'>
-            <% project_position = (index + 1).odd? ? 'left' : 'right' %>
-            <div class='project-<%= project_position %>'>
-              <a href="<%= project.live_link %>" target='_blank' class='project-img-link'>
-                <div class='image-container'>
-                  <img src="<%= project.image_path %>" alt="" class='project-img'>
+  <div class='projects-wrapper'>
+    <% data.projects.each_with_index do |project, index| %>
+      <div class='project project-<%= index + 1 %>'>
+          <% project_position = (index + 1).odd? ? 'left' : 'right' %>
+          <div class='project-<%= project_position %>'>
+            <a href="<%= project.live_link %>" target='_blank' class='project-img__link'>
+              <img src="<%= project.image_path %>" alt="" class='project-img'>
+
+              <div class='project-credentials'>
+                <div class='project-credentials-text'>
+                  <%# if project.project_credentials  %>
+                    <%# <p>Username: = project.project_credentials[:username]</p> %>
+                    <%# <p>Password: <%= project.project_credentials[:password]</p> %>
+                  <%# end %>
                 </div>
-                <div class='project-credentials'>
-                  <div class='project-credentials-text'>
-                    <%# if project.project_credentials  %>
-                      <%# <p>Username: = project.project_credentials[:username]</p> %>
-                      <%# <p>Password: <%= project.project_credentials[:password]</p> %>
-                    <%# end %>
+              </div>
+            </a>
+          </div>
+
+          <div class='project-<%= project_position == "left" ? "right" : "left" %>'>
+            <div class='project-description'>
+              <h2><%= project.name %></h2>
+              <p><%= project.description %></p>
+
+              <div class='project-tech-stack'>
+              <% project.tech_stack.each do |tech_name| %>
+                  <div class='tech'>
+                    <p><%= tech_name %></p>
+                    <img src='<%= data.tech_stack[tech_name] %>' alt="">
                   </div>
-                </div>
-              </a>
-            </div>
+              <% end %>
+              </div>
 
-            <div class='project-<%= project_position == "left" ? "right" : "left" %>'>
-              <div class='project-description'>
-                <h2><%= project.name %></h2>
-                <p><%= project.description %></p>
-                <div class='project-tech-stack'>
-                <% project.tech_stack.each do |tech_name| %>
-                    <div class='tech'>
-                      <p><%= tech_name %></p>
-                      <img src='<%= data.tech_stack[tech_name] %>' alt="">
-                    </div>
-                <% end %>
-              </div>
-                <div class='project-btns'>
-                  <a href="<%= project.live_link %>" target='_blank' class='view-project-btn'>View Project</a>
-                  <a href="<%= project.source_code_link %>" target='_blank' class='source-code-btn'>Source Code</a>
-                </div>
+              <div class='project-btns'>
+                <a href="<%= project.live_link %>" target='_blank' class='view-project-btn'>View Project</a>
+                <a href="<%= project.source_code_link %>" target='_blank' class='source-code-btn'>Source Code</a>
               </div>
             </div>
-        </div>
-      <% end %>
-    </div>
+          </div>
+      </div>
+    <% end %>
   </div>
 </section>

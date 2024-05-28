@@ -3,9 +3,6 @@
 }
 
 .about {
-  display: flex;
-  flex-direction: column;
-
   &__content {
     p {
       font-size: 1.6rem;
@@ -46,15 +43,4 @@
       }
     }
   }
-}
-
-#my-skills-header {
-  font-size: 3rem;
-  text-align: center;
-  color: #dbfff1;
-  text-shadow:
-    0 0 7px #5efdbebf,
-    0 0 10px #5efdbebf,
-    0 0 21px #5efdbebf,
-    0 0 42px #5efdbebf;
 }
