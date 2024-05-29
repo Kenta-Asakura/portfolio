@@ -14,10 +14,35 @@
 }
 
 // @mixin heading-color($color-name) {
+//   @if $color-name == 'color-primary' {
+//     &--#{$color-name} {
+//       border-bottom: 2px solid #{$color-primary};
+//       box-shadow: 0 4px 2px -2px #{$color-primary},
+//                   0 6px 2px -2px #{$color-primary-dark-1},
+//                   0 8px 2px -2px #{$color-primary-dark-2};
+//     }
+//   } @else if $color-name == 'color-secondary' {
+//     &--#{$color-name} {
+//       border-bottom: 2px solid #{$color-secondary};
+//       box-shadow: 0 4px 2px -2px #{$color-secondary},
+//                   0 6px 2px -2px #{$color-secondary-dark-1},
+//                   0 8px 2px -2px #{$color-secondary-dark-2};
+//     }
+//   } @else if $color-name == 'color-tertiary' {
+//     &--#{$color-name} {
+//       border-bottom: 2px solid #{$color-tertiary};
+//       box-shadow: 0 4px 2px -2px #{$color-tertiary},
+//                   0 6px 2px -2px #{$color-tertiary-dark-1},
+//                   0 8px 2px -2px #{$color-tertiary-dark-2};
+//     }
+//   }
+// }
+
+// @mixin heading-color($color-name) {
 //   &--#{$color-name} {
 //     border-bottom: 2px solid #{$color-name};
 //     box-shadow: 0 4px 2px -2px #{$color-name},
-//                 0 6px 2px -2px #{$color-name + '-dark-1'},
-//                 0 8px 2px -2px #{$color-name + '-dark-2'};
+//                 0 6px 2px -2px #{$color-name}-dark-1,
+//                 0 8px 2px -2px #{$color-name}-dark-2;
 //   }
 // }

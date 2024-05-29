@@ -17,7 +17,7 @@ html {
   @include respond(tablet) {
     font-size: 56.25%; //
   }
-  
+
   @include respond(mobile-devices) {
     font-size: 50%; // 1rem = 8px, 8/16 = 50%
   }
@@ -30,5 +30,9 @@ body {
 
   img {
     max-width: 100%;
+  }
+
+  p {
+    font-size: 1.6rem;
   }
 }

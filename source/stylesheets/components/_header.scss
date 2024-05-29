@@ -1,10 +1,11 @@
 .hero {
   min-height: 100vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
   @include respond(mobile-devices) {
     flex-direction: column-reverse;
+    justify-content: space-evenly;
   }
 
   & > * {

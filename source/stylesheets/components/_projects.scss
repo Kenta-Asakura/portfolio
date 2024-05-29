@@ -12,33 +12,43 @@
   }
 }
 
+@media screen and (max-width: 990px) {
+  .project-1, .project-2, .project-3 {
+    // height: auto;
+  }
+  .project-2 {
+    // flex-direction: column-reverse;
+  }
+}
+
 .project {
   display: flex;
   align-content: space-between;
+  gap: 0 5rem;
 
-  &:not(:last-child) {
-    padding-bottom: 11rem;
+  @include respond(mobile-devices) {
+    flex-direction: column;
   }
 
+  &:not(:last-child) {
+    padding-bottom: 10rem;
+  }
+
+  &__link {
+    height: 100%;
+  }
 
   &-img {
     position: static;
     object-fit: cover;
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 100%;
-    min-height: 100%;
-    padding-bottom: 2em;
     transition: .4s ease;
+
+    @include respond(mobile-devices) {
+      margin-bottom: 3rem;
+    }
 
     &:hover {
       opacity: 85%;
-    }
-
-    &__link {
-      text-decoration: none;
-      color: inherit;
-
     }
   }
 }
@@ -54,39 +64,81 @@
 
 .project-left,
 .project-right {
+  align-content: center;
   flex: 1;
   width: 100%;
-  padding: 0 4%;
   transition: transform 0.9s ease;
+
+  @include respond(mobile-devices) {
+    padding: 0;
+  }
+
+  &.show {
+    transform: translateX(0rem);
+  }
 }
 
-.project-left.show {
-  transform: translateX(0rem);
-}
-
-.project-right.show {
-  transform: translateX(0rem);
-}
-
-.project-description {
+.project__details {
   display: flex;
   flex-direction: column;
   padding: 1em 0 1em 0;
-  max-width: 100%;
-  min-width: 100%;
-  max-height: 100%;
-  min-height: 100%;
 
   h2 {
-    font-size: 2.25rem;
-    margin-bottom: 1em;
+    font-size: 3rem;
   }
 
   p {
-    font-size: 1.1rem;
-    width: 90%;
+    font-size: 1.6rem;
   }
 }
+
+.project__tech-stack {
+  display: flex;
+
+  &-item {
+    margin-right: 1.5rem;
+
+    &:hover p {
+      visibility: visible;
+    }
+
+    p {
+      visibility: hidden;
+      background-color: #454545;
+      color: #fff;
+      text-align: center;
+      padding: 0.1875rem 0;
+      border-radius: 0.375rem;
+      font-size: 0.75rem;
+      position: fixed;
+      z-index: 1;
+    }
+
+    img {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+}
+
+.project__btns {
+  display: flex;
+  gap: 0 1rem;
+
+  & > * {
+    flex: 1;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 0.4em 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 
 // .project-credentials {
 //   transition: .5s ease;
@@ -118,99 +170,3 @@
 // .project-right:hover .project-credentials {
 //   opacity: 1;
 // }
-
-.project-tech-stack {
-  display: flex;
-  padding-bottom: 2rem;
-
-  img {
-    zoom: 46%;
-    margin-right: 6%;
-  }
-}
-
-.tech {
-  position: static;
-  padding-right: 1.5rem;
-
-  p {
-    visibility: hidden;
-    width: 5rem;
-    background-color: #454545;
-    color: #fff;
-    text-align: center;
-    padding: 0.1875rem 0;
-    border-radius: 0.375rem;
-    font-size: 0.75rem;
-    position: fixed;
-    z-index: 1;
-  }
-}
-
-.tech:hover p {
-  visibility: visible;
-}
-
-.project-btns {
-  display: flex;
-}
-
-.project-btns a {
-  text-decoration: none;
-  color: white;
-  display: flex;
-  padding: 0.4em 0;
-  justify-content: center;
-  align-items: center;
-}
-
-.view-project-btn {
-  flex-grow: 3.5;
-  margin-right: 1em;
-  border-radius: 0.3em;
-  transition: 0.3s ease-in-out;
-  background-color: #614edae0;
-  box-shadow: 0 0 5px #5843dc, 0 0 14px hsl(248, 69%, 56%);
-
-  &:hover {
-    background-color: #513fc7;
-  }
-}
-
-.source-code-btn {
-  flex-grow: 2;
-  background-color: #40ac81;
-  border-radius: 0.3em;
-  transition: 0.3s ease-in-out;
-  box-shadow: 0 4px 15px 0px #2e7759, 0 0 14px #2e7759;
-
-  &:hover {
-    background-color: #2b9c6f;
-  }
-}
-
-@media screen and (max-width: 990px) {
-  .project-left, .project-right {
-    padding: 0;
-  }
-
-  .projects-container {
-    margin-top: 18%;
-  }
-
-  .projects-content:not(:last-child) {
-    padding-bottom: 5rem;
-  }
-  .project-1, .project-2, .project-3 {
-    height: auto;
-  }
-  .project-1 {
-    flex-direction: column;
-  }
-  .project-2 {
-    flex-direction: column-reverse;
-  }
-  .project-3 {
-    flex-direction: column;
-  }
-}

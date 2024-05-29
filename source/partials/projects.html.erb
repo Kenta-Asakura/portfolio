@@ -22,22 +22,22 @@
           </div>
 
           <div class='project-<%= project_position == "left" ? "right" : "left" %>'>
-            <div class='project-description'>
-              <h2><%= project.name %></h2>
-              <p><%= project.description %></p>
+            <div class='project__details'>
+              <h2 class='u-mb-s'><%= project.name %></h2>
+              <p class='u-mb-s'><%= project.description %></p>
 
-              <div class='project-tech-stack'>
+              <div class='project__tech-stack u-mb-s'>
               <% project.tech_stack.each do |tech_name| %>
-                  <div class='tech'>
+                  <div class='project__tech-stack-item'>
                     <p><%= tech_name %></p>
                     <img src='<%= data.tech_stack[tech_name] %>' alt="">
                   </div>
               <% end %>
               </div>
 
-              <div class='project-btns'>
-                <a href="<%= project.live_link %>" target='_blank' class='view-project-btn'>View Project</a>
-                <a href="<%= project.source_code_link %>" target='_blank' class='source-code-btn'>Source Code</a>
+              <div class='project__btns'>
+                <a href="<%= project.live_link %>" target='_blank' class='btn btn--secondary'>View Project</a>
+                <a href="<%= project.source_code_link %>" target='_blank' class='btn btn--primary'>Source Code</a>
               </div>
             </div>
           </div>
