@@ -12,22 +12,30 @@
   }
 }
 
-@media screen and (max-width: 990px) {
-  .project-1, .project-2, .project-3 {
-    // height: auto;
-  }
-  .project-2 {
-    // flex-direction: column-reverse;
-  }
-}
-
 .project {
   display: flex;
   align-content: space-between;
   gap: 0 5rem;
 
+  @include respond(desktop) {
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  // Refactor ?
   @include respond(mobile-devices) {
     flex-direction: column;
+
+    &:nth-child(even) {
+      .project-left {
+          transform: translateX(110%);
+      }
+
+      .project-right {
+          transform: translateX(-110%);
+      }
+    }
   }
 
   &:not(:last-child) {
@@ -54,12 +62,11 @@
 }
 
 .project-left {
-  // transform: translateX(-73rem);
+  transform: translateX(-110%);
 }
 
 .project-right {
-  // transform: translateX(73rem);
-  order: 2;
+  transform: translateX(110%);
 }
 
 .project-left,
@@ -74,7 +81,7 @@
   }
 
   &.show {
-    transform: translateX(0rem);
+    transform: translateX(0rem) !important;
   }
 }
 
@@ -123,7 +130,7 @@
 
 .project__btns {
   display: flex;
-  gap: 0 1rem;
+  gap: 0 2rem;
 
   & > * {
     flex: 1;
