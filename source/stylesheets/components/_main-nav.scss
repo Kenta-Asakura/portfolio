@@ -5,10 +5,16 @@
   width: 100%;
   z-index: 999;
   overflow: hidden;
+  transition: transform 0.3s ease-in-out;
 
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  &--hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
 
   img {
     height: 4rem;
@@ -88,9 +94,4 @@
     //   display: none;
     // }
   }
-}
-
-.hidden {
-  transform: translateY(-100%);
-  transition: transform 0.3s ease-out;
 }
