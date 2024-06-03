@@ -27,32 +27,6 @@
     padding: 0;
   }
 
-  & > * {
-    color: white;
-
-    &:not(:last-child) {
-      label {
-        margin-bottom: .2rem;
-      }
-
-      input {
-        width: 100%;
-        padding: 0.75rem;
-        border: 1px solid #3c3c3c;
-        background-color: rgb(128, 128, 128);
-        border-radius: 4px;
-      }
-    }
-
-    input[type=submit] {
-      padding: 1.4% 4.9%;
-      border: none;
-      border-radius: 4px;
-      transition: 0.3s ease-in-out;
-      cursor: pointer;
-    }
-  }
-
   &__name {
     grid-column: 1 / 2;
   }
@@ -69,9 +43,43 @@
     grid-column: 1 / -1;
   }
 
-  &__btn {
+  &__submit {
     grid-row: 4 / 5;
     grid-column: 1 / -1;
     align-content: center;
+    justify-self: end;
+
+    @include respond(mobile-small) {
+      justify-self: stretch;
+    }
+  }
+
+  & > * {
+    color: white;
+    border-radius: 4px;
+
+    &:not(.contact-form__submit) {
+      label {
+        margin-bottom: .2rem;
+      }
+
+      input {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #3c3c3c;
+        background-color: rgb(128, 128, 128);
+      }
+    }
+
+    &__submit {
+      input {
+        padding: 1em 3em;
+        cursor: pointer;
+
+        @include respond(mobile-small) {
+          width: 100%;
+        }
+      }
+    }
   }
 }
