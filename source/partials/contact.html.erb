@@ -1,33 +1,33 @@
 <p id='contact'></p>
-<section>
-  <div id="contact-container">
-    <h2 class="heading-secondary heading-secondary--color-tertiary">CONTACT</h2>
+<section class='contact'>
+  <h2 class="heading-secondary heading-secondary--color-tertiary">CONTACT</h2>
+  <p class="u-mt-m u-mb-m">Got a question or proposal, or just want say hello? Feel free to contact me!</p>
 
-    <p>Got a question or proposal, or just want say hello? Feel free to contact me!</p>
-    <div id='contact-form-container'>
-      <div id='contact-form'>
-        <form method="POST" action="https://script.google.com/macros/s/AKfycbxlY7MaF3ZQ2jZJ1UX8LcQ_gM50mUzjHS-N51GbUpGNi240KtQ2S-2YT-9jHkhcKhHdNA/exec"
-        id='form'>
-          <div class='d-flex justify-content-between'>
-            <div id='input-name' >
-              <label for="Name">Name</label>
-              <input name="Name"type="text" placeholder="Name" required>
-            </div>
-            <div id='input-email'>
-              <label for="Email">Email</label>
-              <input name="Email" type="email" placeholder="Email" required>
-            </div>
-          </div>
-
-          <label for="Subject">Subject</label>
-          <input name="Subject" type="text" placeholder="Name" required>
-
-          <label for="Message">Message</label>
-          <input name="Message" type="text" placeholder="Name" required>
-
-          <input type="submit"></input>
-        </form>
+  <div class='contact-form-wrapper'>
+    <form class='contact-form' method="POST" action="https://script.google.com/macros/s/AKfycbxlY7MaF3ZQ2jZJ1UX8LcQ_gM50mUzjHS-N51GbUpGNi240KtQ2S-2YT-9jHkhcKhHdNA/exec">
+      <div class='contact-form__name'>
+        <label for="Name">Name</label>
+        <input name="Name"type="text" required>
       </div>
-    </div>
+
+      <div class='contact-form__email'>
+        <label for="Email">Email</label>
+        <input name="Email" type="email" required>
+      </div>
+
+      <div class="contact-form__subject">
+        <label for="Subject">Subject</label>
+        <input name="Subject" type="text" required>
+      </div>
+
+      <div class="contact-form__message">
+        <label for="Message">Message</label>
+        <input name="Message" type="text" required>
+      </div>
+
+      <div class="contact-form__btn">
+        <input class="btn btn--tertiary" type="submit"></input>
+      </div>
+    </form>
   </div>
 </section>

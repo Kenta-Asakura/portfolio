@@ -41,4 +41,15 @@
       background-color: $color-secondary-dark-2 ;
     }
   }
+
+  &--tertiary {
+    background-color: $color-tertiary-dark-1;
+    box-shadow:
+      0 0 5px $color-tertiary-dark-1,
+      0 0 14px $color-tertiary-dark-2;
+
+    &:hover {
+      background-color: $color-tertiary-dark-2 ;
+    }
+  }
 }

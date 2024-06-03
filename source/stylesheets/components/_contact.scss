@@ -2,69 +2,76 @@
   transform: translateY(-10vh)
 }
 
-#contact-container {
-  height: 100%;
-  padding-bottom: 9rem;
-
+.contact {
   p {
     text-align: center;
-    font-size: 1.5rem;
-    padding: 0 15% 3% 15%;
+    font-size: 1.6rem;
+    padding: 0 3rem;
+
+    @include respond(mobile-small) {
+      padding: 0;
+    }
   }
 }
 
-#contact-form-container {
-  display: flex;
-  justify-content: center;
-}
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 2rem;
 
-#contact-form {
-  width: 50%;
-}
+  padding: 0 5rem;
 
-#input-name {
-  width: 50%;
-  padding-right: 0.75rem;
-}
+  @include respond(mobile) {
+    padding: 0;
+  }
 
-#input-email {
-  width: 50%;
-  padding-left: 0.75rem;
-}
+  & > * {
+    color: white;
 
+    &:not(:last-child) {
+      label {
+        margin-bottom: .2rem;
+      }
 
-input, label {
-  display:block;
-}
+      input {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #3c3c3c;
+        background-color: rgb(128, 128, 128);
+        border-radius: 4px;
+      }
+    }
 
-input[type=text], [type=email], select, textarea {
-  color: white;
-  width: 100%; /* Full width */
-  padding: 0.75rem; /* Some padding */
-  // border: 1px solid #3c3c3c;
-  background-color: rgb(128, 128, 128);
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 0.375rem; /* Add a top margin */
-  margin-bottom: 1rem; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-}
+    input[type=submit] {
+      padding: 1.4% 4.9%;
+      border: none;
+      border-radius: 4px;
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+    }
+  }
 
-input[type=submit] {
-  background-color: #52cecec2;
-  box-shadow: 0 0 5px #52cecebf,
-   0 0 12px #52cecebf;
-  color: white;
-  padding: 1.4% 4.9%;
-  // margin-left: 81%;
-  margin-top: 2rem;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
+  &__name {
+    grid-column: 1 / 2;
+  }
 
-/* When moving the mouse over the submit input, add a darker green color */
-input[type=submit]:hover {
-  background-color: #388686;
+  &__email {
+    grid-column: 2 / -1;
+  }
+
+  &__subject {
+    grid-column: 1 / -1;
+  }
+
+  &__message {
+    grid-column: 1 / -1;
+  }
+
+  &__btn {
+    grid-row: 4 / 5;
+    grid-column: 1 / -1;
+    align-content: center;
+  }
 }
