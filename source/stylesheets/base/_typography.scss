@@ -62,12 +62,23 @@ body {
 .heading-tertiary {
   font-size: 3rem;
   text-align: center;
-  color: #dbfff1;
-  text-shadow:
-    0 0 7px #5efdbebf,
-    0 0 10px #5efdbebf,
-    0 0 21px #5efdbebf,
-    0 0 42px #5efdbebf;
+  color: $color-white;
+
+  &--color-secondary {
+    text-shadow:
+      0 0 7px $color-secondary,
+      0 0 10px $color-secondary-dark-1,
+      0 0 21px $color-secondary-dark-2,
+      0 0 42px $color-secondary-dark-3;
+  }
+
+  &--color-tertiary {
+    text-shadow:
+      0 0 7px $color-tertiary,
+      0 0 10px $color-tertiary-dark-1,
+      0 0 21px $color-tertiary-dark-2,
+      0 0 42px $color-tertiary-dark-3;
+  }
 }
 
 // .paragraph {

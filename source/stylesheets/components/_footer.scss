@@ -1,17 +1,23 @@
 .footer {
-  width: 100%;
-  height: 3%;
-  display: flex;
-  justify-content: center;
-  font-size: 1.375rem;
-  color: #afadad;
-}
+  min-height: 80px;
+  font-size: 1.6rem;
+  color: $color-gray-dark-2;
 
-#footer-creator {
-  padding-left: 0.3125rem;
-  font-weight: 600;
-  color: white !important;
-  text-shadow: 0 0 5px #52cecebf,
-  0 0 12px #52cecebf,
-  0 0 20px #52cecebf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 .6rem;
+
+  @include respond(mobile) {
+    min-height: 70px;
+  }
+
+  @include respond(mobile-small) {
+    flex-direction: column;
+    gap: 0 .6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2rem;
+  }
 }
