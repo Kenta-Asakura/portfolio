@@ -1,12 +1,12 @@
 [build]
   publish = "build"
-  command = "bundle exec middleman build"
+  command = "bundle exec middleman"
 
 [context.production]
-  command = "bundle exec middleman build && cache restore"
+  command = "bundle exec middleman && cache restore"
 
 [context.deploy-preview]
-  command = "bundle exec middleman build && cache restore"
+  command = "bundle exec middleman && cache restore"
 
 [context.branch-deploy]
-  command = "bundle exec middleman build && cache restore"
+  command = "bundle exec middleman && cache restore"
