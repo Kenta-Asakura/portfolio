@@ -1,5 +1,3 @@
-// all js here
-
 // Projects slide in animation
 document.write('<script src="/javascripts/projectsSlider.js"></script>');
 

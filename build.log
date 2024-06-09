@@ -1,0 +1,622 @@
+== Activating: file_watcher
+== Activating: front_matter
+== Activating: data
+== Activating: inline_url_rewriter
+== Activating: sitemap_ondisk
+== Activating: sitemap_import
+== Activating: sitemap_endpoint
+== Activating: sitemap_proxies
+== Activating: sitemap_redirects
+== Activating: sitemap_move_files
+== Activating: sitemap_ignore
+== Activating: external_helpers
+== Activating: erb_renderer
+== Activating: coffee_renderer
+== Activating: haml_renderer
+== Activating: sass_renderer
+== Activating: markdown_renderer
+== Failed Activation `liquid_renderer` : cannot load such file -- liquid
+== Failed Activation `slim_renderer` : cannot load such file -- slim
+== Failed Activation `less_renderer` : cannot load such file -- less
+== Activating: default_helpers
+== Activating: lorem
+== Activating: routing
+== Activating: collections
+== Change (#<Set: {:data}>): projects.yml
+== Change (#<Set: {:data}>): tech_stack.yaml
+== Rebuilding resource list
+== Requesting resource list rebuilding: touched_data_file
+== Change (#<Set: {:source}>): index.html.erb
+== Change (#<Set: {:source}>): layouts/layout.erb
+== Change (#<Set: {:source}>): javascripts/sidePanelToggler.js
+== Change (#<Set: {:source}>): javascripts/contactFormPreventDefault.js
+== Change (#<Set: {:source}>): javascripts/bannerFadeInEffect.js
+== Change (#<Set: {:source}>): javascripts/site.js
+== Change (#<Set: {:source}>): javascripts/projectsSlider.js
+== Change (#<Set: {:source}>): javascripts/hideNavbar.js
+== Change (#<Set: {:source}>): javascripts/headerFadeInEffect.js
+== Change (#<Set: {:source}>): images/language_icons/Flag_of_Japan-64x43.png
+== Change (#<Set: {:source}>): images/language_icons/Flag_of_United_States-64x34.png
+== Change (#<Set: {:source}>): images/projects/my-watch-list.png
+== Change (#<Set: {:source}>): images/projects/Huddle.png
+== Change (#<Set: {:source}>): images/projects/kotoback.png
+== Change (#<Set: {:source}>): images/projects/CoolBeans.png
+== Change (#<Set: {:source}>): images/homepage-icon_title-bar.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-styled-components-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-bootstrap-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-ruby-programming-language-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-figma-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-heroku-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-github-94.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-sass-avatar-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-postgresql-100.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-rails-a-server-side-web-application-framework-written-in-ruby-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-html-5-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-git-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-react-native-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-css3-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-javascript-96.png
+== Change (#<Set: {:source}>): images/profile_picture_copy.jpg
+== Change (#<Set: {:source}>): images/home-logo.png
+== Change (#<Set: {:source}>): partials/main-nav.html.erb
+== Change (#<Set: {:source}>): partials/contact.html.erb
+== Change (#<Set: {:source}>): partials/projects.html.erb
+== Change (#<Set: {:source}>): partials/about.html.erb
+== Change (#<Set: {:source}>): partials/footer.html.erb
+== Change (#<Set: {:source}>): partials/hero.html.erb
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_modal.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_toasts.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_containers.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_functions.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_tooltip.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_mixins.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_placeholders.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_forms.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_alert.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_close.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_reboot.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_transitions.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_tables.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_breadcrumb.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_popover.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_images.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_input-group.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_floating-labels.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_form-select.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_form-control.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_form-range.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_validation.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_form-text.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_form-check.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_labels.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_navbar.scss
+== Change (#<Set: {:source}>): stylesheets/bootstrap/bootstrap-reboot.scss
+== Change (#<Set: {:source}>): stylesheets/bootstrap/bootstrap-utilities.scss
+== Change (#<Set: {:source}>): stylesheets/bootstrap/bootstrap-grid.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_position.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_visually-hidden.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_text-truncation.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_clearfix.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_colored-links.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_ratio.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_vr.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_stretched-link.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_stacks.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_color-bg.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_backdrop.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_box-shadow.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_visually-hidden.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_lists.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_deprecate.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_forms.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_clearfix.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_alert.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_gradients.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_caret.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_container.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_transition.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_resize.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_image.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_text-truncate.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_banner.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_pagination.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_utilities.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_list-group.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_buttons.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_breakpoints.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_grid.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_color-scheme.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_reset-text.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_table-variants.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_border-radius.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_progress.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/utilities/_api.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_helpers.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_pagination.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_utilities.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_list-group.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_offcanvas.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_root.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_spinners.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_maps.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_buttons.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_nav.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_grid.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_variables.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_type.scss
+== Change (#<Set: {:source}>): stylesheets/bootstrap/bootstrap.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_carousel.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_badge.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_card.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_accordion.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_dropdown.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_button-group.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/vendor/_rfs.scss
+== Change (#<Set: {:source}>): stylesheets/layout/index.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/layout/_footer.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/layout/_navigation.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/layout/_header.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/layout/_grid.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/config/_colors.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/config/_fonts.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/config/_bootstrap_variables.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/base/_typography.scss
+== Change (#<Set: {:source}>): stylesheets/base/index.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/base/_base.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/base/_utilities.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/base/_animations.scss
+== Change (#<Set: {:source}>): stylesheets/site.css.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_language_toggler.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_index.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_avatar.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_alert.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_projects.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_contact.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_footer.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_about_me.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_header.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_button.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_form_legend_clear.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_breakpoints.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_sidepanel_menu.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_cards.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_main-nav.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/abstracts/_functions.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/abstracts/_mixins.scss
+== Change (#<Set: {:source}>): stylesheets/abstracts/index.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/abstracts/_breakpoints.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/abstracts/_variables.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/pages/_home.scss
+== Rebuilding resource list
+== Reading: Local config: config.rb
+== Activating: autoprefixer
+== Requesting resource list rebuilding: first_run_change_page
+== Requesting resource list rebuilding: first_run_change_page
+== Requesting resource list rebuilding: first_run_change_page
+Loaded extensions:
+== Extension: file_watcher
+== Extension: front_matter
+== Extension: data
+== Extension: inline_url_rewriter
+== Extension: sitemap_ondisk
+== Extension: sitemap_import
+== Extension: sitemap_endpoint
+== Extension: sitemap_proxies
+== Extension: sitemap_redirects
+== Extension: sitemap_move_files
+== Extension: sitemap_ignore
+== Extension: external_helpers
+== Extension: erb_renderer
+== Extension: coffee_renderer
+== Extension: haml_renderer
+== Extension: sass_renderer
+== Extension: markdown_renderer
+== Extension: default_helpers
+== Extension: lorem
+== Extension: routing
+== Extension: collections
+== Extension: autoprefixer
+== Change (#<Set: {:data}>): projects.yml
+== Change (#<Set: {:data}>): tech_stack.yaml
+== Rebuilding resource list
+== Requesting resource list rebuilding: touched_data_file
+== Change (#<Set: {:source}>): index.html.erb
+== Change (#<Set: {:source}>): layouts/layout.erb
+== Change (#<Set: {:source}>): javascripts/sidePanelToggler.js
+== Change (#<Set: {:source}>): javascripts/contactFormPreventDefault.js
+== Change (#<Set: {:source}>): javascripts/bannerFadeInEffect.js
+== Change (#<Set: {:source}>): javascripts/site.js
+== Change (#<Set: {:source}>): javascripts/projectsSlider.js
+== Change (#<Set: {:source}>): javascripts/hideNavbar.js
+== Change (#<Set: {:source}>): javascripts/headerFadeInEffect.js
+== Change (#<Set: {:source}>): images/language_icons/Flag_of_Japan-64x43.png
+== Change (#<Set: {:source}>): images/language_icons/Flag_of_United_States-64x34.png
+== Change (#<Set: {:source}>): images/projects/my-watch-list.png
+== Change (#<Set: {:source}>): images/projects/Huddle.png
+== Change (#<Set: {:source}>): images/projects/kotoback.png
+== Change (#<Set: {:source}>): images/projects/CoolBeans.png
+== Change (#<Set: {:source}>): images/homepage-icon_title-bar.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-styled-components-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-bootstrap-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-ruby-programming-language-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-figma-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-heroku-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-github-94.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-sass-avatar-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-postgresql-100.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-rails-a-server-side-web-application-framework-written-in-ruby-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-html-5-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-git-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-react-native-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-css3-96.png
+== Change (#<Set: {:source}>): images/tech-stack-icons/icons8-javascript-96.png
+== Change (#<Set: {:source}>): images/profile_picture_copy.jpg
+== Change (#<Set: {:source}>): images/home-logo.png
+== Change (#<Set: {:source}>): partials/main-nav.html.erb
+== Change (#<Set: {:source}>): partials/contact.html.erb
+== Change (#<Set: {:source}>): partials/projects.html.erb
+== Change (#<Set: {:source}>): partials/about.html.erb
+== Change (#<Set: {:source}>): partials/footer.html.erb
+== Change (#<Set: {:source}>): partials/hero.html.erb
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_modal.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_toasts.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_containers.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_functions.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_tooltip.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_mixins.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_placeholders.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_forms.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_alert.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_close.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_reboot.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_transitions.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_tables.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_breadcrumb.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_popover.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_images.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_input-group.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_floating-labels.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_form-select.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_form-control.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_form-range.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_validation.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_form-text.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_form-check.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/forms/_labels.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_navbar.scss
+== Change (#<Set: {:source}>): stylesheets/bootstrap/bootstrap-reboot.scss
+== Change (#<Set: {:source}>): stylesheets/bootstrap/bootstrap-utilities.scss
+== Change (#<Set: {:source}>): stylesheets/bootstrap/bootstrap-grid.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_position.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_visually-hidden.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_text-truncation.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_clearfix.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_colored-links.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_ratio.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_vr.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_stretched-link.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_stacks.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/helpers/_color-bg.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_backdrop.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_box-shadow.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_visually-hidden.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_lists.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_deprecate.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_forms.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_clearfix.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_alert.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_gradients.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_caret.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_container.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_transition.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_resize.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_image.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_text-truncate.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_banner.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_pagination.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_utilities.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_list-group.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_buttons.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_breakpoints.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_grid.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_color-scheme.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_reset-text.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_table-variants.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/mixins/_border-radius.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_progress.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/utilities/_api.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_helpers.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_pagination.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_utilities.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_list-group.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_offcanvas.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_root.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_spinners.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_maps.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_buttons.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_nav.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_grid.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_variables.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_type.scss
+== Change (#<Set: {:source}>): stylesheets/bootstrap/bootstrap.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_carousel.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_badge.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_card.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_accordion.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_dropdown.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/_button-group.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/bootstrap/vendor/_rfs.scss
+== Change (#<Set: {:source}>): stylesheets/layout/index.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/layout/_footer.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/layout/_navigation.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/layout/_header.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/layout/_grid.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/config/_colors.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/config/_fonts.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/config/_bootstrap_variables.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/base/_typography.scss
+== Change (#<Set: {:source}>): stylesheets/base/index.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/base/_base.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/base/_utilities.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/base/_animations.scss
+== Change (#<Set: {:source}>): stylesheets/site.css.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_language_toggler.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_index.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_avatar.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_alert.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_projects.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_contact.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_footer.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_about_me.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_header.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_button.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_form_legend_clear.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_breakpoints.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_sidepanel_menu.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_cards.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/components/_main-nav.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/abstracts/_functions.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/abstracts/_mixins.scss
+== Change (#<Set: {:source}>): stylesheets/abstracts/index.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/abstracts/_breakpoints.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/abstracts/_variables.scss
+== Change (#<Set: {:source, :no_frontmatter}>): stylesheets/pages/_home.scss
+== Rebuilding resource list
+== Requesting resource list rebuilding: touched_file
+== Requesting resource list rebuilding: registered_new_manipulator_front_matter
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_ondisk
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_import
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_endpoint
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_proxies
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_redirects
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_move_files
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_ignore
+== Requesting resource list rebuilding: registered_new_manipulator_routing
+== Requesting resource list rebuilding: registered_new_manipulator_routing
+== Requesting resource list rebuilding: registered_new_manipulator_collections
+== Rebuilding resource list
+== Running manipulator: sitemap_ondisk (0)
+== Running manipulator: sitemap_endpoint (0)
+== Running manipulator: sitemap_proxies (0)
+== Running manipulator: sitemap_redirects (0)
+== Running manipulator: sitemap_ignore (0)
+== Running manipulator: sitemap_import (1)
+== Running manipulator: routing (10)
+== Running manipulator: front_matter (20)
+== Running manipulator: sitemap_move_files (101)
+== Running manipulator: collections (110)
+== Running manipulator: routing (130)
+== Prerendering CSS
+== Request: /stylesheets/site.css
+== Finishing Request: stylesheets/site.css (4.57s)
+   identical  build/stylesheets/site.css
+== Building files
+   identical  build/images/language_icons/Flag_of_Japan-64x43.png
+   identical  build/images/language_icons/Flag_of_United_States-64x34.png
+   identical  build/images/projects/Huddle.png
+   identical  build/images/projects/kotoback.png
+   identical  build/images/projects/my-watch-list.png
+   identical  build/images/homepage-icon_title-bar.png
+   identical  build/images/tech-stack-icons/icons8-styled-components-96.png
+   identical  build/images/tech-stack-icons/icons8-bootstrap-96.png
+   identical  build/images/projects/CoolBeans.png
+   identical  build/images/tech-stack-icons/icons8-ruby-programming-language-96.png
+   identical  build/images/tech-stack-icons/icons8-heroku-96.png
+   identical  build/images/tech-stack-icons/icons8-github-94.png
+   identical  build/images/tech-stack-icons/icons8-figma-96.png
+   identical  build/images/tech-stack-icons/icons8-html-5-96.png
+   identical  build/images/tech-stack-icons/icons8-git-96.png
+   identical  build/images/tech-stack-icons/icons8-postgresql-100.png
+   identical  build/images/tech-stack-icons/icons8-javascript-96.png
+   identical  build/images/tech-stack-icons/icons8-css3-96.png
+   identical  build/images/home-logo.png
+   identical  build/images/tech-stack-icons/icons8-sass-avatar-96.png
+   identical  build/images/tech-stack-icons/icons8-rails-a-server-side-web-application-framework-written-in-ruby-96.png
+   identical  build/images/tech-stack-icons/icons8-react-native-96.png
+   identical  build/images/profile_picture_copy.jpg
+== Request: /javascripts/projectsSlider.js
+== Finishing Request: javascripts/projectsSlider.js (0.0s)
+   identical  build/javascripts/projectsSlider.js
+== Request: /javascripts/bannerFadeInEffect.js
+== Finishing Request: javascripts/bannerFadeInEffect.js (0.0s)
+   identical  build/javascripts/bannerFadeInEffect.js
+== Request: /javascripts/hideNavbar.js
+== Finishing Request: javascripts/hideNavbar.js (0.0s)
+   identical  build/javascripts/hideNavbar.js
+== Request: /javascripts/sidePanelToggler.js
+== Finishing Request: javascripts/sidePanelToggler.js (0.0s)
+   identical  build/javascripts/sidePanelToggler.js
+== Request: /javascripts/contactFormPreventDefault.js
+== Finishing Request: javascripts/contactFormPreventDefault.js (0.0s)
+   identical  build/javascripts/contactFormPreventDefault.js
+== Request: /javascripts/headerFadeInEffect.js
+== Finishing Request: javascripts/headerFadeInEffect.js (0.0s)
+   identical  build/javascripts/headerFadeInEffect.js
+== Request: /javascripts/site.js
+== Finishing Request: javascripts/site.js (0.0s)
+   identical  build/javascripts/site.js
+== Request: /partials/footer.html
+== Finishing Request: partials/footer.html (0.02s)
+   identical  build/partials/footer.html
+== Request: /partials/hero.html
+== Finishing Request: partials/hero.html (0.02s)
+   identical  build/partials/hero.html
+== Request: /partials/main-nav.html
+== Finishing Request: partials/main-nav.html (0.02s)
+   identical  build/partials/main-nav.html
+== Request: /partials/projects.html
+== Finishing Request: partials/projects.html (0.03s)
+   identical  build/partials/projects.html
+== Request: /partials/about.html
+== Finishing Request: partials/about.html (0.03s)
+   identical  build/partials/about.html
+== Request: /partials/contact.html
+== Finishing Request: partials/contact.html (0.03s)
+   identical  build/partials/contact.html
+== Request: /stylesheets/layout/index
+== Finishing Request: stylesheets/layout/index (0.01s)
+   identical  build/stylesheets/layout/index
+== Request: /stylesheets/abstracts/index
+== Finishing Request: stylesheets/abstracts/index (0.02s)
+   identical  build/stylesheets/abstracts/index
+== Request: /index.html
+== Finishing Request: index.html (0.05s)
+   identical  build/index.html
+== Request: /stylesheets/base/index
+       error  build/stylesheets/base/index
+Error: no mixin named respond
+        on line 13:12 of source/stylesheets/base/_base.scss
+        from line 2:9 of source/stylesheets/base/index.scss
+>>   @include respond(desktop) { 
+
+   -----------^
+
+/home/asakurakenta/code/Kenta-Asakura/middleman-portfolio/source/stylesheets/base/_base.scss:13
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/sassc-2.4.0/lib/sassc/engine.rb:50:in `render'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/renderers/sass.rb:55:in `evaluate'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/tilt-2.0.11/lib/tilt/template.rb:109:in `render'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/file_renderer.rb:79:in `render'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_reference.rb:45:in `send_to'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/call_with.rb:96:in `call_with_inner'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:137:in `block (2 levels) in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `each'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `block in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/template_renderer.rb:184:in `_render_with_all_renderers'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/template_renderer.rb:147:in `block in render'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4.3/lib/active_support/notifications.rb:208:in `instrument'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/util.rb:20:in `instrument'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/template_renderer.rb:146:in `render'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_reference.rb:45:in `send_to'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/call_with.rb:96:in `call_with_inner'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:137:in `block (2 levels) in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `each'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `block in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/sitemap/resource.rb:154:in `render'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_reference.rb:45:in `send_to'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/call_with.rb:96:in `call_with_inner'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:137:in `block (2 levels) in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `each'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `block in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/rack.rb:113:in `process_request'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/rack.rb:67:in `block in call'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/rack.rb:66:in `catch'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/rack.rb:66:in `call'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/urlmap.rb:74:in `block in call'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/urlmap.rb:58:in `each'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/urlmap.rb:58:in `call'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-autoprefixer-3.0.0/lib/middleman-autoprefixer/extension.rb:55:in `call'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/head.rb:12:in `call'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/lint.rb:50:in `_call'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/lint.rb:38:in `call'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/builder.rb:244:in `call'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/mock.rb:84:in `request'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.6.4/lib/rack/mock.rb:57:in `get'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/builder.rb:232:in `block in output_resource'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4.3/lib/active_support/notifications.rb:208:in `instrument'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/util.rb:20:in `instrument'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/builder.rb:225:in `output_resource'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_reference.rb:45:in `send_to'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/call_with.rb:96:in `call_with_inner'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:137:in `block (2 levels) in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `each'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `block in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:557:in `process_incoming_jobs'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:537:in `block in worker'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:528:in `fork'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:528:in `worker'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:519:in `block in create_workers'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:518:in `each'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:518:in `each_with_index'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:518:in `create_workers'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:457:in `work_in_processes'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/parallel-1.22.1/lib/parallel.rb:294:in `map'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/builder.rb:137:in `output_resources'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_reference.rb:45:in `send_to'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/call_with.rb:96:in `call_with_inner'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:137:in `block (2 levels) in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `each'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `block in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/builder.rb:131:in `output_files'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_reference.rb:45:in `send_to'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/call_with.rb:96:in `call_with_inner'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:137:in `block (2 levels) in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `each'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `block in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/builder.rb:71:in `block in run!'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4.3/lib/active_support/notifications.rb:208:in `instrument'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/util.rb:20:in `instrument'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/builder.rb:70:in `run!'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_reference.rb:45:in `send_to'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/call_with.rb:96:in `call_with_inner'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:137:in `block (2 levels) in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `each'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/contracts-0.17/lib/contracts/method_handler.rb:136:in `block in redefine_method'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-cli-4.4.3/lib/middleman-cli/build.rb:84:in `block in build'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.4.3/lib/active_support/notifications.rb:208:in `instrument'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-core-4.4.3/lib/middleman-core/util.rb:20:in `instrument'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-cli-4.4.3/lib/middleman-cli/build.rb:83:in `build'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/invocation.rb:134:in `block in invoke_all'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/invocation.rb:134:in `each'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/invocation.rb:134:in `map'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/invocation.rb:134:in `invoke_all'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/group.rb:232:in `dispatch'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/invocation.rb:116:in `invoke'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor.rb:40:in `block in register'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/thor-1.2.1/lib/thor/base.rb:485:in `start'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/middleman-cli-4.4.3/bin/middleman:70:in `<top (required)>'
+/home/asakurakenta/.rbenv/versions/3.1.2/bin/middleman:25:in `load'
+/home/asakurakenta/.rbenv/versions/3.1.2/bin/middleman:25:in `<top (required)>'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/cli/exec.rb:58:in `load'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/cli/exec.rb:58:in `kernel_load'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/cli/exec.rb:23:in `run'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/cli.rb:492:in `exec'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/cli.rb:34:in `dispatch'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/cli.rb:28:in `start'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/exe/bundle:45:in `block in <top (required)>'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/lib/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+/home/asakurakenta/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.4.9/exe/bundle:33:in `<top (required)>'
+/home/asakurakenta/.rbenv/versions/3.1.2/bin/bundle:25:in `load'
+/home/asakurakenta/.rbenv/versions/3.1.2/bin/bundle:25:in `<main>'
+== Request: /stylesheets/bootstrap/bootstrap-reboot
+== Finishing Request: stylesheets/bootstrap/bootstrap-reboot (0.41s)
+   identical  build/stylesheets/bootstrap/bootstrap-reboot
+== Request: /stylesheets/bootstrap/bootstrap-grid
+== Finishing Request: stylesheets/bootstrap/bootstrap-grid (2.0s)
+   identical  build/stylesheets/bootstrap/bootstrap-grid
+== Request: /stylesheets/bootstrap/bootstrap-utilities
+== Finishing Request: stylesheets/bootstrap/bootstrap-utilities (2.52s)
+   identical  build/stylesheets/bootstrap/bootstrap-utilities
+== Request: /stylesheets/bootstrap/bootstrap
+== Finishing Request: stylesheets/bootstrap/bootstrap (5.07s)
+   identical  build/stylesheets/bootstrap/bootstrap
+There were errors during this build

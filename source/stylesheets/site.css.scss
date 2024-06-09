@@ -7,9 +7,9 @@
 // Font Awesome imported in the head
 @import "bootstrap/bootstrap";
 
-// @import "abstracts/breakpoints";
-// @import "abstracts/variables";
-// @import "base/mixins";
+@import "abstracts/breakpoints";
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
 // Your CSS partials
 @import "abstracts/index";

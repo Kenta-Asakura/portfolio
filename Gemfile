@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "sass"
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 3.0'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
