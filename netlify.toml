@@ -1,0 +1,12 @@
+[build]
+  command = "bundle exec middleman"
+  publish = "build"
+
+[context.production]
+  command = "bundle exec middleman build --verbose"
+
+[build.environment]
+  BUNDLE_PATH = "vendor/bundle"
+  GEM_HOME = "vendor/bundle"
+  GEM_PATH = "vendor/bundle"
+  BUNDLE_BIN = "vendor/bundle/bin"
