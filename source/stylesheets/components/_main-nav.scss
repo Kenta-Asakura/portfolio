@@ -30,36 +30,38 @@
 
   &__item {
     position: relative;
+    transition: all .3s ease-in-out;
 
     &::after {
       content: "";
       display: block;
-      // height: 3px;
+      height: 1.5px;
       left: 50%;
       position: absolute;
       width: 0px;
       background: $color-primary;
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
-
-      height: 1.5px;
     }
 
-    &:hover::after {
-      // width: 100%;
-      left: -7%;
-      width: 111%;
-    }
+    &:hover {
+      cursor: pointer;
 
-    & a:hover{
-      color: $color-primary;
+      a { color: $color-primary; }
+
+      &:after {
+        left: -7%;
+        width: 111%;
+      }
     }
   }
 
   &__link {
+    display: block;
     color: #E7F4EF;
     font-size: 2rem;
     font-family: 'Chakra Petch', 'sans-serif';
     text-decoration: none;
+    transition: all .3s ease-in-out;
   }
 
   &__menu-icon {
