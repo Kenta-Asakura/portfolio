@@ -27,12 +27,12 @@
               <p class='u-mb-s'><%= project.description %></p>
 
               <div class='project__tech-stack u-mb-s'>
-              <% project.tech_stack.each do |tech_name| %>
-                  <div class='project__tech-stack-item'>
-                    <p><%= tech_name %></p>
-                    <img src='<%= data.tech_stack[tech_name] %>' alt="">
-                  </div>
-              <% end %>
+                <% project.tech_stack.each do |tech_name| %>
+                    <div class='project__tech-stack-item'>
+                      <p><%= tech_name %></p>
+                      <img src="<%= data.tech_stack[tech_name]['src'] %>" alt="<%= data.tech_stack[tech_name]['alt'] %>">
+                    </div>
+                <% end %>
               </div>
 
               <div class='project__btns'>

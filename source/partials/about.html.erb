@@ -13,10 +13,10 @@
 
   <div class='about__skills'>
     <ul class='about__skills-list'>
-      <% data.tech_stack.each do |key, value| %>
+      <% data.tech_stack.each do |tech_name, tech_info| %>
         <li class='about__skills-list__item'>
-          <p><%= key %></p>
-          <img src='<%= value %>' alt=''></img>
+          <p><%= tech_name %></p>
+          <img src="<%= tech_info['src'] %>" alt="<%= tech_info['alt'] %>">
         </li>
       <% end %>
     </ul>
