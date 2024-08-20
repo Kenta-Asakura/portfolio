@@ -8,7 +8,7 @@
           <% project_position = (index + 1).odd? ? 'left' : 'right' %>
           <div class='project-<%= project_position %>'>
             <a href="<%= project.live_link %>" target='_blank' class='project-img__link'>
-              <img src="<%= project.image_path %>" alt="" class='project-img'>
+              <img src="<%= project.image_path %>" alt="<%= "Screenshot of #{project.name} project" %>" class='project-img'>
 
               <div class='project-credentials'>
                 <div class='project-credentials-text'>
