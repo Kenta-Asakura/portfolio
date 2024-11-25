@@ -1,41 +1,41 @@
+- name: WeatherVibez
+  description: A scalable and modular application featuring clean, maintainable code and real-time weather data integration through an external API for a seamless user experience.
+  tech_stack:
+    - 'JavaScript'
+    - 'Sass'
+    - 'Webpack'
+  live_link: https://weather-vibez.netlify.app/
+  source_code_link: https://github.com/Kenta-Asakura/weather-dashboard
+  image_path: /images/projects/weather-vibez.png
+
 - name: Huddle
-  description: Huddle Landing Page is a React and Styled-components project that deepened my understanding of React while honing my UI/UX design skills.
+  description: A modern front-end project built with React and Styled-components, enhancing my proficiency in React while refining my UI/UX design skills through the use of cutting-edge technologies.
   tech_stack:
     - 'React'
     - 'Styled-components'
   live_link: https://huddle-landing-page-styled.netlify.app/
   source_code_link: https://github.com/Kenta-Asakura/huddle-landing-page
-  image_path: /images/projects/Huddle.png
+  image_path: /images/projects/huddle.png
 
 - name: CoolBeans
-  description: A coffee shop landing page utilized with Bootstrap and Sass.
+  description: A mock e-commerce coffee shop landing page developed using Bootstrap and Sass, designed for quick development and responsive functionality.
   tech_stack:
-    - 'HTML'
+    - 'JavaScript'
     - 'Sass'
     - 'Bootstrap'
   live_link: https://coolbeanss.netlify.app/
   source_code_link: https://github.com/Kenta-Asakura/bootstrap-project
   image_path: /images/projects/CoolBeans.png
 
-- name: My Watch List
-  description: An entertainment app which gets info about the current movies and allows users to bookmark them.
-  tech_stack:
-    - 'Ruby'
-    - 'Rails'
-    - 'PostgreSQL'
-  live_link: https://my-watch-list-app.herokuapp.com/
-  source_code_link: https://github.com/Kenta-Asakura/my-watch-list
-  image_path: images/projects/my-watch-list.png
-  project_credentials:
-    - username: kenta@yahoo.com
-    - password: secret
-
-# - name: Kotoback
-#   description: A web application where a user can upload an epub book (Either Japanese to English, or English to Japanese.) and automatically generates flashcards to let the user study before reading and have a smoother reading experience.
+# - name: My Watch List
+#   description: An entertainment app which gets info about the current movies and allows users to bookmark them.
 #   tech_stack:
-#     - 'Ruby': ./images/tech-stack-icons/icons8-ruby-programming-language-96.png
-#     - 'Rails': ./images/tech-stack-icons/icons8-rails-a-server-side-web-application-framework-written-in-ruby-96.png
-#     - 'PostgreSQL': ./images/tech-stack-icons/icons8-postgresql-100.png
-#   live_link: https://www.kotoback.net
-#   source_code_link: https://github.com/Jtsoco/kotoback
-#   image_path: images/projects/kotoback.png
+#     - 'Ruby'
+#     - 'Ruby on Rails'
+#     - 'PostgreSQL'
+#   live_link: https://my-watch-list-app.herokuapp.com/
+#   source_code_link: https://github.com/Kenta-Asakura/my-watch-list
+#   image_path: images/projects/my-watch-list.png
+#   project_credentials:
+#     - username: kenta@yahoo.com
+#     - password: secret

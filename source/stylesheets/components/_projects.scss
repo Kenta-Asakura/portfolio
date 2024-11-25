@@ -53,6 +53,8 @@
 
     @include respond(mobile-devices) {
       margin-bottom: 3rem;
+      max-height: 300px;
+      width: 100%;
     }
 
     &:hover {

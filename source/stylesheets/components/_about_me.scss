@@ -14,7 +14,7 @@
     &-list {
       display: grid;
       grid-template-columns: repeat(3, minmax(15rem, 1fr));
-      row-gap: 3rem;
+      row-gap: 2rem;
       list-style: none;
       padding: 0;
       margin: 0;
@@ -38,8 +38,8 @@
       }
 
       img {
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
       }
     }
   }
