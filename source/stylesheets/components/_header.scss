@@ -3,6 +3,9 @@
   display: flex;
   justify-content: space-between;
 
+  @include respond(desktop) {
+    column-gap: 10%;
+  }
   @include respond(mobile-devices) {
     flex-direction: column-reverse;
     justify-content: space-evenly;
@@ -16,14 +19,24 @@
   &__text-box {
     overflow: hidden;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
 
     p {
       font-size: 1.5rem;
       color: $color-gray-light-2;
+      margin: 0;
     }
   }
 
+  &__heading {
+    margin: 0;
+  }
+
   &__img-box {
+    flex-shrink: 0;
+
     img {
       width: 27rem;
       height: 27rem;
@@ -55,9 +68,13 @@
       color: gray;
 
       i {
-        font-size: 3rem;
+        font-size: 30px;
         height: 100%;
         transition: all .3s ease-in-out;
+
+      @include respond(mobile-devices) {
+        font-size: 26px;
+      }
 
         &:hover {
           color: rgb(207, 204, 204);

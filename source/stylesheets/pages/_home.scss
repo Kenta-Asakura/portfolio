@@ -1,21 +1,21 @@
+// Containers
 .container {
+  width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
-  max-width: 1140px;
-  padding: 0 10rem;
 
+  @include respond(desktop) {
+    padding-inline: 100px;
+  }
+  @include respond(desktop-large) {
+    padding-inline: 165px;
+  }
   @include respond(tablet) {
-    max-width: 960px;
-    padding: 0 8rem;
+    max-width: 768px;
+    padding-inline: 39px;
   }
-
   @include respond(mobile) {
-    max-width: 720px;
-    padding: 0 5rem;
-  }
-
-  @include respond(mobile-small) {
-    max-width: 540px;
-    padding: 0 3rem;
+    padding-inline: 32px;
   }
 }
 
@@ -25,7 +25,10 @@
 
 .container-fluid {
   max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
 }
+
 
 // Scroll bar
 /* width */
