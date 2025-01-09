@@ -16,6 +16,9 @@ React:
 Styled-components:
   src: './images/tech-stack-icons/styled-components.png'
   alt: 'Styled-components Icon'
+Typescript:
+  src: './images/tech-stack-icons/typescript.png'
+  alt: 'Typescript Icon'
 Bootstrap:
   src: './images/tech-stack-icons/bootstrap.png'
   alt: 'Bootstrap Icon'
